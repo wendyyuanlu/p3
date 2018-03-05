@@ -1,0 +1,920 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  color: #4A4A4D;
+  background: #F9F9F9;
+  overflow-x: hidden;
+}
+
+main, header {
+  margin: 0 auto;
+  padding: 0 5%;
+/*   max-width: 90%; */
+}
+
+ul {
+  padding-left:1em;
+}
+
+a, a:visited {
+  color: #0088CE;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.4s color;
+}
+
+a:hover, a:focus {
+  color: #4A4A4D;
+}
+
+/*https://stackoverflow.com/questions/28623446/hover-effect-expand-bottom-border*/
+a:after {
+  display:block;
+  content: '';
+  border-bottom: 4px solid #c9e8f8;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+a:hover:after, a:focus:after {
+  transform: scaleX(1);
+}
+
+
+
+h1 {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 1.7em;
+  text-align: center;
+  margin: 0 auto 1.3em auto;
+}
+
+h2 {
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+p {
+  line-height: 2em;
+}
+
+figure, figcaption {
+  margin: 0;
+  padding:0;
+}
+
+figcaption {
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em auto;
+}
+
+header .logo {
+  width:130px;
+  height: 75px;
+  margin-bottom: 0.8em;
+}
+
+header .logo img {
+  max-width: 100%;
+  opacity: 1;
+}
+
+header .logo a:after {
+  border: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+nav .desktop {
+  display: none;
+  visibility: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  padding:0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 2em;
+  padding: 0;
+  margin-right: -0.3em;
+}
+
+nav ul li a {
+  transition: color 0.4s, border-color 0.4s;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #e3e3e3;
+  display: block;
+}
+
+footer {
+  margin-top: auto;
+  padding: 3em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.8em;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 20px);
+  /* min-height: 100vh; */
+}
+
+.highlight {
+  display: inline-block;
+}
+
+.highlight:after {
+  display:block;
+  content: '';
+  background:#c9e8f8;
+}
+
+h1 .highlight:after {
+  height: 7px;
+  margin-top:-12px;
+}
+
+.subtext {
+/*   font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em; */
+  margin-right: -0.2em;
+  background-image: linear-gradient(transparent 10px,#c9e8f8 5px,#c9e8f8 15px,transparent 14px);
+}
+
+/* #styleguide h2, #styleguide h3 {
+  text-align: left;
+} */
+
+/* #styleguide hr {
+  margin: 3em 0;
+} */
+
+#styleguide #more-project .grid {
+  margin-bottom:1em;
+}
+
+code {
+  font-size: 1em;
+  font-family: 'Muli';
+  background: #fff;
+  white-space: pre-line;
+  display: block;
+  padding: 1em;
+  margin-bottom:2.5em;
+}
+
+/*-----------------------------------
+   GENERIC GRID STRUCTURE
+  -----------------------------------*/
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid img {
+  max-width: 100%;
+  height: auto;
+}
+
+.col-2, .col-3 {
+  margin-bottom:1.5em;
+  width: 100%;
+}
+
+.col-2:last-child, .col-3:last-child {
+  margin-bottom:0;
+}
+
+.grid-center {
+  align-items: center;
+}
+
+/*-----------------------------------
+   WORK LISTING GALLERY
+  -----------------------------------*/
+
+.work-container {
+/*   display: flex;
+  flex-wrap: wrap; */
+}
+
+.work-container .col-2:last-child {
+  margin-bottom:1.5em;
+}
+
+ .work-item {
+  margin-bottom: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-item figure {
+  margin: 0 0 -4px 0;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index:1;
+}
+
+.work-item figure img {
+/*   max-width: 100%; */
+  transition: 1s transform;
+}
+
+.work-item figure a {
+  height:10px;
+}
+
+.work-item figure a img:hover {
+   transform: scale(1.15);
+}
+
+.work-item a {
+  background: #fff;
+  color: #4A4A4D;
+  position: relative;
+  z-index: 2;
+}
+
+.work-item a:after {
+  border: none;
+}
+
+.work-item > a {
+  background: #fff;
+  width: 100%;
+}
+
+
+.work-overview {
+  transition: 0.4s all;
+  position: relative;
+  z-index: 3;
+  margin: 0px auto 0 auto;
+  border: 1px solid #e3e3e3;
+  border-top: none;
+  padding: 1.3em 1.8em;
+  text-align: center;
+  background: #fff;
+  width: 100%;
+}
+
+.work-overview:hover {
+  background: rgba(201, 232, 248, 0.2);
+}
+
+.work-overview h2 {
+  margin: 0;
+}
+
+.work-overview p {
+  font-size: 0.9em;
+  line-height: 1.8em;
+}
+
+.work-overview p:first-child {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+.work-overview .arrow {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1em;
+  transition: 0.4s all;
+}
+
+.work-overview:hover > .arrow {
+  padding-left:0.8em;
+}
+
+/*-----------------------------------
+   WORK LISTING GALLERY ENDS
+  -----------------------------------*/
+
+/*-----------------------------------
+   PROJECT DETAIL
+  -----------------------------------*/
+#project-detail img {
+  max-width: 100%;
+}
+
+.panel {
+  width: 100vw;
+  margin: 0 -50vw;
+  position: relative;
+}
+
+.panel:nth-of-type(even) {
+  background: #f0f0f0;
+}
+
+.panel-child {
+  padding: 3em 10.5%;
+}
+
+
+.panel:first-child > .panel-child {
+ padding-top:0;
+}
+
+#project-detail p {
+  margin-top: 0;
+}
+
+#project-detail h1 {
+  margin-bottom: 0.5em;
+}
+
+#project-detail h2 {
+  margin: 0;
+}
+
+#project-detail .details h3 {
+  text-align: left;
+}
+
+#project-detail .details p {
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+.intro .col-2:first-child {
+  margin-bottom: 0;
+}
+
+.intro .col-2:last-child {
+  margin-bottom:1em;
+}
+
+
+
+/*-----------------------------------
+   PROJECT DETAIL ENDS
+  -----------------------------------*/
+
+/*-----------------------------------
+   MORE PROJECTS
+  -----------------------------------*/
+#more-project .grid {
+  margin-bottom:-1em;
+}
+
+#more-project .col-2 {
+  flex-direction: column;
+
+}
+
+#more-project a:hover {
+  background: rgba(201, 232, 248, 0.2);
+}
+
+#more-project a {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e3e3e3;
+  background: #fff;
+  color: #4A4A4D;
+  transition: 0.4s background;
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+#more-project .arrow {
+  margin-top: auto;
+  font-size: 1.5em;
+  line-height: 1em;
+  transition: 0.4s all;
+  padding: 0 0.2em;
+}
+
+#more-project a:after {
+  border: none;
+}
+
+#more-project .next-project:hover .arrow {
+  padding-left:0.8em;
+}
+
+#more-project .prev-project:hover .arrow {
+  padding-right:0.8em;
+}
+
+.prev-project h2, .prev-project h3, .prev-project .arrow {
+  margin: 0.2em;
+  text-align: center;
+}
+
+.next-project h2, .next-project h3, .next-project .arrow {
+  margin: 0.2em;
+  text-align: center;
+}
+
+
+
+/*------*/
+
+
+  .work-item {
+
+    margin-bottom: 3em;
+    align-items: center;
+    flex-direction: column; /*THIS IS SUPER IMPORTANT!!!*/
+  }
+
+
+  .work-item > a {
+    margin-top:-2em;
+    max-width: 85%;
+    display: flex;
+    flex: 1 0 auto;
+
+  }
+
+  .work-overview {
+    border: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .work-overview .arrow {
+    margin-top: auto;
+  }
+
+/*-----------------------------------
+   END MORE PROJECTS
+  -----------------------------------*/
+
+p.social {
+  text-align: center;
+}
+
+p.social img {
+  width: 17px;
+  height: 17px;
+  padding: 10px;
+}
+
+
+
+
+@media (min-width: 600px) {
+
+  h1 {
+    font-size: 2.5em;
+    max-width:650px;
+  }
+
+
+  header {
+    margin-top:4em;
+  }
+
+  h1 .highlight:after {
+    height: 11px;
+    margin-top:-18px;
+  }
+
+
+  .text-only {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+
+}
+
+
+@media (max-width: 759px) {
+
+  /*-----------------------------------
+   NAVIGATION
+  -----------------------------------*/
+
+
+  nav #mobile {
+    text-align: center;
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:-0.5em;
+  }
+
+  #mobile img {
+    max-width: 100%;
+    margin-bottom: -8px;
+  }
+
+  #mobile ul li{
+    text-align: center;
+    margin-left:-0.3em;
+    width: 100%;
+    margin-top:3px;
+    margin-bottom:3px;
+  }
+
+
+  #mobile ul li a:after {
+    margin-top:-6px;
+  }
+
+  #mobile ul li a:focus {
+    color: #0088CE;
+    outline: none;
+  }
+
+  #mobile ul li a:focus:after {
+    border-bottom:0;
+  }
+
+
+
+  /*-----------------------------------
+   END NAVIGATION
+  -----------------------------------*/
+
+  .col-2.grid-text {
+    order: 1;
+  }
+
+  .col-2.grid-image {
+    order: 2;
+  }
+
+
+  .details .col-3:nth-of-type(1), .details .col-3:nth-of-type(2) {
+    margin-bottom: 0.8em;
+  }
+
+}
+
+
+@media (min-width: 760px) {
+
+
+  /*-----------------------------------
+   NAVIGATION
+  -----------------------------------*/
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header .logo {
+    width:140px;
+    height: 77.54px;
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+
+
+  nav ul li {
+    padding: 0 1.2em;
+    line-height: 1.3em;
+    letter-spacing: 0.3em;
+  }
+
+
+  nav ul li a:after {
+    margin-right: 0.3em;
+  }
+
+
+  nav #desktop1 ul li:first-child {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  nav #desktop2 ul li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+
+  nav .desktop {
+    display: inline-block;
+    padding-top:3.45em;
+    visibility: visible;
+  }
+
+  nav #mobile {
+    display: none;
+    visibility: hidden;
+  }
+  /*-----------------------------------
+   NAVIGATION ENDS
+  -----------------------------------*/
+
+  /*-----------------------------------
+   GENERAL GRID STRUCTURE
+  -----------------------------------*/
+
+
+  .col-2, .col-3 {
+    margin: 0 3%;
+  }
+
+  .col-2:nth-of-type(odd), .col-3:nth-of-type(3n + 1) {
+    margin-left: 0;
+  }
+
+  .col-2:nth-of-type(even), .col-3:nth-of-type(3n + 3) {
+    margin-right: 0;
+  }
+
+
+  .col-2 {
+    width: calc((100% - 6%)/2);
+
+  }
+
+  .col-3 {
+    width: calc((100% - 12%)/3 );
+  }
+
+  /*-----------------------------------
+   GENERAL GRID STRUCTURE ENDS
+  -----------------------------------*/
+
+  /*-----------------------------------
+   WORK LISTING GALLERY
+  -----------------------------------*/
+
+  .work-container .col-2:last-child {
+    margin-bottom:3em;
+  }
+
+  .work-item {
+/*     width: calc((100% - 8%)/2);
+    margin: 0 2% 3em 2%; */
+    margin-bottom: 3em;
+/*     justify-content: space-around; */
+    align-items: center;
+    flex-direction: column; /*THIS IS SUPER IMPORTANT!!!*/
+  }
+
+
+  .work-item figure:after {
+    display: block;
+    content: " ";
+    background: #F9F9F9;
+    height: 4px;
+    margin-top:-4px;
+    position: relative;
+    z-index: 4;
+  }
+
+
+  .work-item > a {
+    margin-top:-2em;
+    max-width: 85%;
+    display: flex;
+    flex: 1 0 auto;
+
+  }
+
+  .work-overview {
+    border: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .work-overview .arrow {
+    margin-top: auto;
+  }
+
+  /*-----------------------------------
+   WORK LISTING GALLERY ENDS
+  -----------------------------------*/
+
+  /*-----------------------------------
+   PROJECT DETAIL
+  -----------------------------------*/
+
+  #project-detail h1, #project-detail .grid h2, #project-detail .grid h3 {
+    text-align: left;
+  }
+
+  .intro .grid {
+    align-items: center;
+  }
+
+  .intro .col-2:first-child {
+    order: 2;
+    margin-left: 3%;
+    margin-right: 0;
+  }
+
+  .intro .col-2:last-child {
+    order: 1;
+    margin-right: 3%;
+    margin-left: 0;
+  }
+
+  /*-----------------------------------
+   PROJECT DETAIL ENDS
+  -----------------------------------*/
+}
+
+@media (min-width: 1000px) {
+
+  header, main {
+/*     max-width: 80%; */
+    padding: 0 10%;
+  }
+
+  nav ul li {
+    padding: 0 1.5em;
+    line-height: 1.3em;
+    letter-spacing: 0.3em;
+  }
+
+  .text-only {
+    max-width: 70%;
+  }
+
+  .work-item > a {
+    margin-top:-2.5em;
+  }
+
+  /*-----------------------------------
+   MORE PROJECTS
+  -----------------------------------*/
+
+/*   #more-project a {
+    position: relative;
+    z-index: 2;
+  }
+
+  #more-project .more-project-text{
+    width: 70%;
+  }
+
+  #more-project a:after {
+    border: none;
+  }
+
+  #more-project figure {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    z-index:1;
+  }
+
+  #more-project img {
+    transition: 1s transform;
+    height: 100%;
+    width: 100%;
+  }
+
+  #more-project figure img:hover {
+     transform: scale(1.15);
+  }
+
+  .prev-project h2, .prev-project h3, .prev-project .arrow {
+    margin: 0.2em;
+    text-align: right;
+  }
+
+  .next-project h2, .next-project h3, .next-project .arrow {
+    margin: 0.2em;
+    text-align: left;
+  }
+
+  .prev-project .arrow, .next-project .arrow {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1em;
+    transition: 0.4s all;
+    padding: 0 0.2em;
+  }
+
+  .next-project:hover .arrow {
+    padding-left:0.8em;
+  }
+
+  .prev-project:hover .arrow {
+    padding-right:0.8em;
+  }
+
+
+  .more-project-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .more-project-text .arrow {
+    margin-top: auto;
+  } */
+
+
+  /*-----------------------------------
+     END MORE PROJECTS
+    -----------------------------------*/
+}
+
+
+@media (min-width:1400px) {
+
+  main {
+    padding: 0 15%;
+  }
+
+/*   .work-container {
+    max-width: 80%;
+    margin: 0 auto;
+  } */
+
+  /*-----------------------------------
+   PROJECT DETAIL
+  -----------------------------------*/
+  .panel-child {
+    padding-right: 15.5%;
+    padding-left: 15.5%;
+  }
+
+
+  /*-----------------------------------
+   PROJECT DETAIL ENDS
+  -----------------------------------*/
+}
+
+
+@media (min-width:1600px) {
+
+  main {
+    padding: 0 20%;
+  }
+
+  /*-----------------------------------
+   PROJECT DETAIL
+  -----------------------------------*/
+  .panel-child {
+    padding-right: 20.5%;
+    padding-left: 20.5%;
+  }
+
+
+  /*-----------------------------------
+   PROJECT DETAIL ENDS
+  -----------------------------------*/
+}
