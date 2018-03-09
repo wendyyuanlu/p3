@@ -17,8 +17,12 @@ main, header {
 /*   max-width: 90%; */
 }
 
-ul {
+ul, ol {
   padding-left:1em;
+}
+
+li {
+	line-height: 1.8em;
 }
 
 a, a:visited {
@@ -615,7 +619,7 @@ p.social img {
     margin-left: 0;
     margin-right: 0;
   }
-  
+
   nav {
     flex-direction: row;
     width: 100%;
@@ -639,12 +643,12 @@ p.social img {
   nav ul li a:after {
     margin-right: 0.3em;
   }
-  
+
   nav #desktop1 {
     width: calc(50% - 70px - 2em);
     text-align: right;
   }
-  
+
   nav #desktop2 {
     width: calc(50% - 70px - 2em);
     text-align: left;
