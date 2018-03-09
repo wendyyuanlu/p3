@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy Lu</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header>
+
+        <nav>
+          <div id="desktop1" class="desktop">
+            <ul>
+              <li><a href="index.php">Work</a></li>
+              <li><a href="about.php">Resume</a></li>
+            </ul>
+          </div>
+
+          <div class="logo">
+            <a href="index.php"><img src="img/logo.png" alt="Wendy Lu"></a>
+          </div>
+
+          <div id="desktop2" class="desktop">
+            <ul>
+              <li><a href="index.php">About</a></li>
+              <li><a href="contact.php">Contact</a></li>
+            </ul>
+          </div>
+
+          <div id="mobile" class="mobile">
+            <div id="menu-items">
+              <hr>
+              <ul>
+                <li><a href="index.php">Work</a></li>
+                <li><a href="about.php">Resume</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+              </ul>
+              <hr>
+            </div> <!--end menu-items-->
+
+            <ul>
+              <li><a href="#" id="menu-button" class="hidden" aria-hidden="true" aria-controls="menu-items">Menu</a></li>
+            </ul>
+            <img src="img/spacer.png" alt="spacer">
+          </div>
+        </nav>
+      </header>
+
+      <main>
