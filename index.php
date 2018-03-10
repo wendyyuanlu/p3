@@ -26,10 +26,10 @@
           <section id="work" class="work-container grid">
             <div class="work-item col-2">
               <figure>
-                <a href="project1.php"><img src="img/thumb/conversations.jpg" alt="Conversations for SAP Jam"></a>
+                <a href="conversations.php"><img src="img/thumb/conversations.jpg" alt="Conversations for SAP Jam"></a>
               </figure>
 
-              <a href="project1.php">
+              <a href="conversations.php">
                 <div class="work-overview">
                   <h3><span class="subtext">UX/UI & Art Direction</span></h3>
                   <h2>Conversations for SAP Jam</h2>
@@ -42,10 +42,10 @@
 
             <div class="work-item col-2">
               <figure>
-                <a href="project2.php"><img src="img/thumb/makerlabs.jpg" alt="MakerLabs"></a>
+                <a href="makerlabs.php"><img src="img/thumb/makerlabs.jpg" alt="MakerLabs"></a>
               </figure>
 
-              <a href="project2.php">
+              <a href="makerlabs.php">
                 <div class="work-overview">
                   <h3><span class="subtext">Research & UX Design</span></h3>
                   <h2>MakerLabs</h2>
