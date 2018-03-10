@@ -23,7 +23,7 @@
 
 
 
-          <section class="work-container grid">
+          <section id="work" class="work-container grid">
             <div class="work-item col-2">
               <figure>
                 <a href="project1.php"><img src="img/thumb/conversations.jpg" alt="Conversations for SAP Jam"></a>

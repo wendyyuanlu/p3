@@ -1,19 +1,8 @@
 <?php include('header.php'); ?>
         <section id="project-detail">
 
-          <!-- <section class="panel intro">
-            <div class="panel-child">
-              <div class="narrow">
-                <h1 style="text-align: center; margin-bottom: 0;">MakerLabs</h1>
-                <h3><span class="subtext">Research & UX Design</span></h3>
-
-                <img src="img/thumb/conversations.jpg" alt="">
-              </div>
-            </div>
-          </section> -->
-
           <section class="panel intro">
-            <div class="panel-child grid">
+            <div class="grid">
               <div class="col-2">
                 <h1>MakerLabs</h1>
                 <h3><span class="subtext">Research & UX Design</span></h3>
@@ -26,7 +15,7 @@
           </section> <!--end panel-->
 
           <section class="panel details">
-            <div class="panel-child grid">
+            <div class="grid">
               <div class="col-3">
                 <h3><span class="subtext">My Roles</span></h3>
                 <p>UX/UI design, Concept development, Video editing, Copywriting, Graphic design</p>
@@ -43,26 +32,24 @@
           </section> <!--end panel-->
 
           <section id="overview" class="panel">
-            <div class="panel-child">
-              <h2>Nunc cursus, ipsum et tristique porttitor</h2>
-              <h3><span class="subtext">Revolutionizing the way stuff works</span></h3>
-              <div class="narrow">
-                <p>
-                  Our proposal is to redesign Travelocity's website and mobile app to guide aspiring travelers and equip them with the tools to become a cultured traveler. By reintroducing the travel agent in a digital context, we help personalize the customer's experience with Travelocity before, during, and after their trip.
-                </p>
+            <h2>Nunc cursus, ipsum et tristique porttitor</h2>
+            <h3><span class="subtext">Revolutionizing the way stuff works</span></h3>
+            <div class="narrow">
+              <p>
+                Our proposal is to redesign Travelocity's website and mobile app to guide aspiring travelers and equip them with the tools to become a cultured traveler. By reintroducing the travel agent in a digital context, we help personalize the customer's experience with Travelocity before, during, and after their trip.
+              </p>
 
-                <p>
-                  Our proposal is to redesign Travelocity's website and mobile app to guide aspiring travelers and equip them with the tools to become a cultured traveler. By reintroducing the travel agent in a digital context, we help personalize the customer's experience with Travelocity before, during, and after their trip.
-                </p>
-              </div> <!--end narrow-->
+              <p>
+                Our proposal is to redesign Travelocity's website and mobile app to guide aspiring travelers and equip them with the tools to become a cultured traveler. By reintroducing the travel agent in a digital context, we help personalize the customer's experience with Travelocity before, during, and after their trip.
+              </p>
+            </div> <!--end narrow-->
 
-              <img src="img/thumb/makerlabs.jpg" alt="">
-            </div>
+            <img src="img/thumb/makerlabs.jpg" alt="">
 
           </section> <!--end panel-->
 
           <section class="panel">
-            <div class="panel-child grid">
+            <div class="grid">
               <div class="col-2">
                 <figure>
                   <img src="img/thumb/seeingai.jpg" alt="">
@@ -84,7 +71,7 @@
           </section> <!--end panel-->
 
           <section class="panel">
-            <div class="panel-child grid grid-center">
+            <div class="grid grid-center">
               <div class="col-2 grid-image">
                 <figure>
                   <img src="img/thumb/makerlabs.jpg" alt="">
@@ -135,7 +122,7 @@
         </section> <!--end id="work-detail"-->
 
         <section id="more-project" class="panel">
-          <section class="panel-child grid">
+          <section class="grid">
             <div class="prev-project col-2">
               <a href="#">
                 <h3><span class="subtext">UX/UI Design</span></h3>

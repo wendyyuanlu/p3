@@ -2,7 +2,7 @@
 
         <section class="panel">
 
-          <h1 class="full">Let's get styling</h1>
+          <h1 class="full">Let's get <span class="highlight">styling</span>.</h1>
 
           <section id="styleguide">
 

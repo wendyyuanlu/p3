@@ -20,7 +20,7 @@
         <nav>
           <div id="desktop1" class="desktop">
             <ul>
-              <li><a href="index.php">Work</a></li>
+              <li><a href="index.php#work">Work</a></li>
             </ul>
           </div>
 
