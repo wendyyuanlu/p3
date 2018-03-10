@@ -140,7 +140,7 @@
               <a href="#">
                 <h3><span class="subtext">UX/UI Design</span></h3>
                 <h2>Seeing AI</h2>
-                <p class="arrow">&larr;</p>
+                <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13"></p>
               </a>
             </div>
 
@@ -148,7 +148,7 @@
               <a href="#">
                 <h3><span class="subtext">UX/UI & Art Direction</span></h3>
                 <h2>Conversations for SAP Jam</h2>
-                <p class="arrow">&rarr;</p>
+                <p class="arrow"><img src="img/arrow-next.svg" onerror="this.src='img/arrow-next.png'" width="30" height="13"></p>
               </a>
             </div>
           </section>

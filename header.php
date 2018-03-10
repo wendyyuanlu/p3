@@ -21,7 +21,6 @@
           <div id="desktop1" class="desktop">
             <ul>
               <li><a href="index.php">Work</a></li>
-              <li><a href="about.php">Resume</a></li>
             </ul>
           </div>
 
@@ -31,28 +30,17 @@
 
           <div id="desktop2" class="desktop">
             <ul>
-              <li><a href="index.php">About</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="about.php">About</a></li>
             </ul>
           </div>
 
           <div id="mobile" class="mobile">
-            <div id="menu-items">
-              <hr>
-              <ul>
-                <li><a href="index.php">Work</a></li>
-                <li><a href="about.php">Resume</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="contact.php">Contact</a></li>
-              </ul>
-              <hr>
-            </div> <!--end menu-items-->
-
             <ul>
-              <li><a href="#" id="menu-button" class="hidden" aria-hidden="true" aria-controls="menu-items">Menu</a></li>
+              <li><a href="index.php">Work</a></li>
+              <li><a href="about.php">About</a></li>
             </ul>
-            <img src="img/spacer.png" alt="spacer">
           </div>
+
         </nav>
       </header>
 
