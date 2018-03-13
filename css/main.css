@@ -89,9 +89,17 @@ figure, figcaption {
   padding:0;
 }
 
+figure {
+  margin: 1em 0;
+}
+
 figcaption {
   font-size: 0.8em;
   line-height: 1.6em;
+}
+
+figure a:after {
+	border-bottom: none;
 }
 
 header {
@@ -498,7 +506,7 @@ p.social img {
     padding-right: 1.5em;
     color: #C2C2C2;
   }
-  
+
   nav ul li:first-child:after {
     content: "|";
     padding-left: 1.5em
@@ -506,7 +514,7 @@ p.social img {
 }
 
 @media (min-width: 550px) {
-  
+
   /*-----------------------------------
    NAVIGATION
   -----------------------------------*/
@@ -584,7 +592,7 @@ p.social img {
   /*-----------------------------------
    NAVIGATION
   -----------------------------------*/
-  
+
 /*   nav #mobile {
     text-align: center;
     width: 100%;
@@ -645,7 +653,7 @@ p.social img {
 
 @media (min-width: 760px) {
 
-  
+
   h1 {
     font-size: 2.5em;
     max-width:700px;
@@ -685,7 +693,7 @@ p.social img {
   /*-----------------------------------
    WORK LISTING GALLERY
   -----------------------------------*/
-  
+
   .work-container {
     margin-bottom: -3.5em;
   }
@@ -702,7 +710,7 @@ p.social img {
     align-items: center;
     flex-direction: column; /*THIS IS SUPER IMPORTANT!!!*/
   }
-  
+
 
 
   .work-item figure:after {
@@ -761,22 +769,22 @@ p.social img {
     margin-right: 3%;
     margin-left: 0;
   }
-  
+
   .column-center {
     margin-left: 26.5%;
     margin-right: -26.5%;
   }
-  
+
   .column-center .col-2{
     width: 47%;
   }
-  
-  
+
+
 
   /*-----------------------------------
    PROJECT DETAIL ENDS
   -----------------------------------*/
-  
+
   .narrow {
     max-width: 70%;
     margin: 0 auto;
@@ -792,7 +800,7 @@ p.social img {
 /*   nav ul li {
     padding: 0 1.5em;
   } */
-  
+
   .panel {
     padding-left:10%;
     padding-right:10%;
