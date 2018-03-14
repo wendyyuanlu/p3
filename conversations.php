@@ -10,7 +10,7 @@
                 <p>Throughout this project, I worked closely with another UX designer, the Development team and the lead Product Manager.</p>
               </div>
               <div class="col-2">
-                <img src="img/thumb/conversations.jpg" alt="Conversations for SAP Jam">
+                <img src="img/overview/conversations.png" alt="Conversations for SAP Jam">
               </div>
             </div>
           </section> <!--end panel-->
@@ -266,7 +266,7 @@
           <section class="grid column-center">
             <div class="prev-project col-2">
               <a href="makerlabs.php">
-                <h3><span class="subtext">UX/UI Design</span></h3>
+                <h3><span class="subtext">Research & UX Design</span></h3>
                 <h2>MakerLabs</h2>
                 <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13"></p>
               </a>

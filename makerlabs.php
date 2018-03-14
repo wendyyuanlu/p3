@@ -9,7 +9,7 @@
                 <p>Suspendisse ex mauris, euismod nec nunc vel, ultrices cursus sapien. Vivamus molestie gravida lacus, id ullamcorper lorem volutpat eu.</p>
               </div>
               <div class="col-2">
-                <img src="img/thumb/conversations.jpg" alt="">
+                <img src="img/overview/makerlabs.png" alt="Website redesign for MakerLabs">
               </div>
             </div>
           </section> <!--end panel-->

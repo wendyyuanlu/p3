@@ -1,27 +1,6 @@
 <?php include('header.php'); ?>
-        <!-- <h1 class="full">Nice to meet you!</h1>
-        <div class="two-container">
-          <div class="two">
-            <p>
-              Phasellus tincidunt massa vitae justo luctus scelerisque. Etiam vel posuere erat, in mattis diam. Integer accumsan dictum nisl eget mattis. Proin consequat a risus vel pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam mattis pellentesque urna ac ullamcorper. Donec congue erat sit amet velit suscipit, et volutpat ex feugiat. Donec turpis leo, elementum a maximus eu, ultricies at augue.
-            </p>
-            <p>
-              Ut sodales tellus a tortor venenatis, ut aliquam arcu ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras bibendum pellentesque consequat. Nulla a ex id tortor mollis pharetra. Mauris sollicitudin hendrerit metus viverra tempor. Nullam a iaculis nunc. Fusce eros lectus, facilisis ac felis aliquet, imperdiet maximus neque.
-            </p>
-            <p class="social">
-            <a href="http://flickr.com/photos/heywendylu" onclick="target='_blank'"><img src="img/flickr1.png" alt="Flickr"></a>
-              <a href="http://instagram.com/heywendylu" onclick="target='_blank'"><img src="img/instagram1.png" alt="Instagram"></a>
-                <a href="http://facebook.com/wendyluphoto" onclick="target='_blank'"><img src="img/facebook1.png" alt="Facebook"></a>
-          </div>
-          <div class="two">
-            <img src="img/full/lovegiven1.jpg">
-          </div>
-        </div> -->
-
         <section class="panel">
           <h1 class="full">Hey there, my name is Wendy and I'm a <span class="highlight">graphic</span> and <span class="highlight">UX designer</span>.</h1>
-
-
 
           <section id="work" class="work-container grid">
             <div class="work-item col-2">
@@ -33,7 +12,7 @@
                 <div class="work-overview">
                   <h3><span class="subtext">UX/UI & Art Direction</span></h3>
                   <h2>Conversations for SAP Jam</h2>
-                  <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum, diam ac ultrices viverra, massa libero ullamcorper ex.</p>
+                  <p class="description">A real-time messaging feature that is bot-friendly and...</p>
                   <p class="arrow"><img src="img/arrow-next.svg" onerror="this.src='img/arrow-next.png'" width="30" height="13"></p>
                 </div>
               </a>
