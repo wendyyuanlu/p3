@@ -65,7 +65,7 @@
             </div> <!--end grid-->
             <div class="narrow">
               <p>
-                Private messages was modeled after e-mail and many of its features were outdated, causing several pain points in starting, continuing, and switching between message threads:
+                Private Messages was modeled after e-mail and many of its features were outdated, causing several pain points in starting, continuing, and switching between message threads:
               </p>
               <ul>
                 <li>Only the first (initial) message of each conversation is shown so users must click into them just to see the most recent message.</li>
@@ -105,6 +105,8 @@
               </figcaption>
             </figure>
 
+            <div class="spacer-1"></div>
+
             <h3><span class="subtext">Interface Design Exploration</span></h3>
             <div class="narrow">
               <p>
@@ -115,6 +117,8 @@
             <figure>
               <a href="img/projects/conversations/mocks.png" onclick="target='_blank'"><img src="img/projects/conversations/mocks.png" alt="High fidelity mockups of the UI"></a>
             </figure>
+
+            <div class="spacer-1"></div>
 
             <h3><span class="subtext">Guerilla Testing</span></h3>
             <div class="narrow">
@@ -152,12 +156,48 @@
 
           <section id="final" class="panel">
             <h2>Final Design</h2>
-            <h3><span class="subtext">BLAH</span></h3>
             <div class="narrow">
               <p>
-                BLAH
+                After performing an audit of the existing UI patterns on SAP Jam, I selected the design below as it is the most consistent with the product.
               </p>
             </div>
+
+            <figure>
+              <a href="img/projects/conversations/final-desk.png" onclick="target='_blank'"><img src="img/projects/conversations/final-desk.png" alt="Final design for Conversations"></a>
+            </figure>
+
+            <div class="grid">
+              <div class="col-2">
+                <figure>
+                  <a href="img/projects/conversations/final-desk-bot.png" onclick="target='_blank'"><img src="img/projects/conversations/final-desk-bot.png" alt="Sketches for creating new conversations"></a>
+                  <figcaption>
+                    Conversation with a bot
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="col-2">
+                <figure>
+                  <a href="img/projects/conversations/final-desk-group.png" onclick="target='_blank'"><img src="img/projects/conversations/final-desk-group.png" alt="Sketches for chat popovers"></a>
+                  <figcaption>
+                    Creating a group conversation
+                  </figcaption>
+                </figure>
+              </div>
+            </div> <!--end grid-->
+
+            <div class="spacer-1"></div>
+
+            <h3><span class="subtext">Mobile Web</span></h3>
+
+            <figure>
+              <a href="img/projects/conversations/final-mobile-all.png" onclick="target='_blank'"><img src="img/projects/conversations/final-mobile-all.png" alt="Final design for Conversations on mobile web"></a>
+              <figcaption>
+                From left to right: 1) Conversations homepage. &nbsp; 2) Adding contacts to a conversation. &nbsp; 3) Conversation with new messages. &nbsp; 4) Alerts for wifi disconnection.
+              </figcaption>
+            </figure>
+
+            <div class="spacer-1"></div>
 
             <h3><span class="subtext">Implementation</span></h3>
             <div class="narrow">
@@ -176,6 +216,7 @@
                 With the core workflows complete and improved, I continued my initial exploration of allowing users to engage in multiple conversations without interrupting their workflow. I experimented with how chat popovers would appear on the screen, different points of entry, and the workflow of starting a conversation.
               </p>
             </div> <!--end narrow-->
+
 
             <div class="grid">
               <div class="col-2">
@@ -199,70 +240,27 @@
 
 
             <h3><span class="subtext">High fidelity mock ups</span></h3>
-            <div class="narrow">
-              <p>
-                A ASLDKJSDF
-              </p>
-            </div> <!--end narrow-->
+            <div class="grid">
+              <div class="col-2">
+                <figure>
+                  <a href="img/projects/conversations/future-chat.png" onclick="target='_blank'"><img src="img/projects/conversations/future-chat.png" alt="Mock up for chat popovers"></a>
+                  <figcaption>
+                    Chat popovers
+                  </figcaption>
+                </figure>
+              </div>
 
-            <figure>
-              <a href="img/projects/conversations/sketch-future-entry.jpg" onclick="target='_blank'"><img src="img/projects/conversations/sketch-future-entry.jpg" alt="Sketches for different entry points"></a>
-              <figcaption>
-                Points of entry
-              </figcaption>
-            </figure>
+              <div class="col-2">
+                <figure>
+                  <a href="img/projects/conversations/future-list.png" onclick="target='_blank'"><img src="img/projects/conversations/future-list.png" alt="Mock up for the conversation list"></a>
+                  <figcaption>
+                    Conversation list popover
+                  </figcaption>
+                </figure>
+              </div>
           </section> <!--end panel-->
 
-          <section class="panel">
-            <div class="grid grid-center">
-              <div class="col-2 grid-image">
-                <figure>
-                  <img src="img/thumb/makerlabs.jpg" alt="">
-                </figure>
-              </div>
-
-              <div class="col-2 grid-text">
-                <h3><span class="subtext">Blah blha blhas df asdf</span></h3>
-                <p>
-                  Duis laoreet, diam eget egestas tincidunt, arcu dui lacinia mi, sit amet semper justo ex non ex. Sed ullamcorper quis dui fermentum semper. Aliquam vitae lacus molestie, auctor ex at, blandit ipsum. Nam pretium magna laoreet ultricies iaculis. Fusce vitae lobortis risus, vel ultricies elit. Vivamus sollicitudin congue ipsum ut fermentum.
-                </p>
-                <p>
-                  Duis laoreet, diam eget egestas tincidunt, arcu dui lacinia mi, sit amet semper justo ex non ex. Sed ullamcorper quis dui fermentum semper.
-                </p>
-              </div>
-
-
-              <div class="col-2 grid-text">
-                <h3><span class="subtext">Blah blha blhas df asdf</span></h3>
-                <p>
-                  Maecenas pellentesque efficitur sem et elementum. Nunc pellentesque malesuada sem in pretium. Maecenas cursus sapien vel augue interdum hendrerit. Donec suscipit, dolor at porttitor cursus, mi augue maximus nulla, nec lacinia lorem risus id lectus. Suspendisse vel
-                </p>
-              </div>
-
-              <div class="col-2 grid-image">
-                <figure>
-                  <img src="img/thumb/conversations.jpg" alt="">
-                </figure>
-              </div>
-
-              <div class="col-2 grid-image">
-                <figure>
-                  <img src="img/thumb/seeingai.jpg" alt="">
-                </figure>
-              </div>
-
-              <div class="col-2 grid-text">
-                <h3><span class="subtext">Blah blha blhas df asdf</span></h3>
-                <p>
-                  Duis laoreet, diam eget egestas tincidunt, arcu dui lacinia mi, sit amet semper justo ex non ex. Sed ullamcorper quis dui fermentum semper. Aliquam vitae lacus molestie, auctor ex at, blandit ipsum. Nam pretium magna laoreet ultricies iaculis. Fusce vitae lobortis risus, vel ultricies elit. Vivamus sollicitudin congue ipsum ut fermentum.
-                </p>
-              </div>
-            </div>
-
-          </section> <!--end panel-->
-
-
-        </section> <!--end id="work-detail"-->
+        </section> <!--end id="project-detail"-->
 
         <section id="more-project" class="panel">
           <section class="grid column-center">

@@ -91,15 +91,23 @@ figure, figcaption {
 
 figure {
   margin: 1em 0;
+  text-align: center;
 }
 
-figcaption {
-  font-size: 0.8em;
-  line-height: 1.6em;
+figure img {
+  display: block;
+	text-align: center;
 }
 
 figure a:after {
 	border-bottom: none;
+}
+
+figcaption {
+  margin-top: 0.4em;
+  font-size: 0.8em;
+  line-height: 1.6em;
+	text-align: left;
 }
 
 header {
@@ -228,6 +236,18 @@ h1 .highlight:after {
   margin-right: -0.2em;
   background-image: linear-gradient(transparent 60%, #c9e8f8 60%, #c9e8f8 93%, transparent 93%);
 /*   background-image: linear-gradient(transparent 10px,#c9e8f8 5px,#c9e8f8 15px,transparent 14px); */
+}
+
+.spacer-1 {
+  height: 1em;
+  width: 1em;
+  display: block;
+}
+
+.spacer-2 {
+  height: 2em;
+  width: 1em;
+  display: block;
 }
 
 /* #styleguide h2, #styleguide h3 {
@@ -662,7 +682,6 @@ p.social img {
   /*-----------------------------------
    GENERAL GRID STRUCTURE
   -----------------------------------*/
-
 
   .col-2, .col-3 {
     margin: 0 3%;
