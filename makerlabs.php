@@ -182,7 +182,6 @@
 
           <section class="panel">
             <h2>Ideation</h2>
-            <h3><span class="subtext">How can MakerLabs.com let people know what they do before people even step into the building?</span></h3>
             <div class="narrow">
               <p>
                 We proposed a web redesign because the current website was causing several pain points, as illustrated below. It places strong emphasis on education and membership but offers no benefits for renting studios. Information on fabrication was almost non-existent and there were no form or guidelines for getting a quote, thus resulting in several redundant e-mails. Furthermore, the website doesn't communicate the creative and diverse community MakerLabs has.
@@ -199,6 +198,13 @@
                 Our aim was to create a simple, streamlined process that guides customers in providing all the necessary information about their project in order to get a quote.
               </p>
             </div>
+
+            <figure>
+              <a href="img/projects/makerlabs/wireframes.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/wireframes.jpg" alt="Wireframes"></a>
+              <figcaption>
+                Customer workflow for getting a quote
+              </figcaption>
+            </figure>
           </section> <!--end panel-->
 
           <section class="panel">
