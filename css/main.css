@@ -103,6 +103,11 @@ figure a:after {
 	border-bottom: none;
 }
 
+figure p {
+  text-align: left;
+  padding-top: 0.4em;
+}
+
 figcaption {
   margin-top: 0.4em;
   font-size: 0.8em;
@@ -238,6 +243,7 @@ h1 .highlight:after {
 /*   background-image: linear-gradient(transparent 10px,#c9e8f8 5px,#c9e8f8 15px,transparent 14px); */
 }
 
+
 .spacer-1 {
   height: 1em;
   width: 1em;
@@ -248,6 +254,10 @@ h1 .highlight:after {
   height: 2em;
   width: 1em;
   display: block;
+}
+  
+.center{
+  text-align: center;
 }
 
 /* #styleguide h2, #styleguide h3 {
@@ -286,12 +296,12 @@ code {
   height: auto;
 }
 
-.col-2, .col-3 {
+.col-2, .col-3, .col-4 {
   margin-bottom:1.5em;
   width: 100%;
 }
 
-.col-2:last-child, .col-3:last-child {
+.col-2:last-child, .col-3:last-child, .col-4:last-child {
   margin-bottom:0;
 }
 
@@ -432,6 +442,10 @@ code {
 #project-detail .details p {
   font-size: 0.8em;
   line-height: 1.6em;
+}
+  
+#project-detail .grid .center{
+  text-align: center;
 }
 
 .intro .col-2:first-child {
@@ -684,15 +698,15 @@ p.social img {
    GENERAL GRID STRUCTURE
   -----------------------------------*/
 
-  .col-2, .col-3 {
+  .col-2, .col-3, .col-4 {
     margin: 0 3%;
   }
 
-  .col-2:nth-of-type(odd), .col-3:nth-of-type(3n + 1) {
+  .col-2:nth-of-type(odd), .col-3:nth-of-type(3n + 1), .col-4:nth-of-type(4n + 1) {
     margin-left: 0;
   }
 
-  .col-2:nth-of-type(even), .col-3:nth-of-type(3n + 3) {
+  .col-2:nth-of-type(even), .col-3:nth-of-type(3n + 3), .col-4:nth-of-type(4n + 4) {
     margin-right: 0;
   }
 
@@ -704,6 +718,10 @@ p.social img {
 
   .col-3 {
     width: calc((100% - 12%)/3 );
+  }
+
+  .col-4 {
+    width: calc((100% - 18%)/4 );
   }
 
   /*-----------------------------------
