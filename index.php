@@ -28,7 +28,7 @@
                 <div class="work-overview">
                   <h3><span class="subtext">Research & UX Design</span></h3>
                   <h2>MakerLabs</h2>
-                  <p class="description">Guismod nec nunc vel, ultrices cursus sapien. Vivamus molestie gravida lacus, id ullamcorper lorem volutpat eu.</p>
+                  <p class="description">A website redesign that highlights the core services of a Vancouver-based company.</p>
                   <p class="arrow"><img src="img/arrow-next.svg" onerror="this.src='img/arrow-next.png'" width="30" height="13"></p>
                 </div>
               </a>

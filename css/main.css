@@ -255,7 +255,7 @@ h1 .highlight:after {
   width: 1em;
   display: block;
 }
-  
+
 .center{
   text-align: center;
 }
@@ -443,7 +443,7 @@ code {
   font-size: 0.8em;
   line-height: 1.6em;
 }
-  
+
 #project-detail .grid .center{
   text-align: center;
 }
@@ -850,7 +850,7 @@ p.social img {
   }
 
   .work-item > a {
-    margin-top:-2.5em;
+    margin-top:-2.8em;
   }
 
   /*-----------------------------------
