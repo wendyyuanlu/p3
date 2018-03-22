@@ -114,9 +114,34 @@
               </p>
             </div>
 
-            <figure>
-              <a href="img/projects/conversations/mocks.png" onclick="target='_blank'"><img src="img/projects/conversations/mocks.png" alt="High fidelity mockups of the UI"></a>
-            </figure>
+            <div class="grid">
+              <div class="col-3">
+                <figure>
+                  <a href="img/projects/conversations/mocks-list.png" onclick="target='_blank'"><img src="img/projects/conversations/mocks-list.png" alt="High fidelity mockups of conversations list"></a>
+                  <figcaption>
+                    Conversation list - profile photos, time stamps, unread messages
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="col-3">
+                <figure>
+                  <a href="img/projects/conversations/mocks-bubbles.png" onclick="target='_blank'"><img src="img/projects/conversations/mocks-bubbles.png" alt="High fidelity mockups of message bubbles"></a>
+                  <figcaption>
+                    Message bubbles
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="col-3">
+                <figure>
+                  <a href="img/projects/conversations/mocks-newreply.png" onclick="target='_blank'"><img src="img/projects/conversations/mocks-newreply.png" alt="High fidelity mockups of new messages and reply box"></a>
+                  <figcaption>
+                    New message indicator and reply box
+                  </figcaption>
+                </figure>
+              </div>
+            </div> <!--end grid-->
 
             <div class="spacer-1"></div>
 
