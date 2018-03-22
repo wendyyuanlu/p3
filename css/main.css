@@ -7,7 +7,7 @@ body {
   font-size: 18px;
   font-family: 'Muli', sans-serif;
   color: #4A4A4D;
-  background: #F9F9F9;
+  background: #fbfbfb;
   overflow-x: hidden;
 }
 
@@ -230,7 +230,7 @@ h1 .highlight:after {
 }
 
 .panel:nth-of-type(even) {
-  background: #f0f0f0;
+  background: #f3f3f3;
 }
 
 .panel:first-child {
@@ -490,6 +490,16 @@ code {
   height: 100%;
 }
 
+#more-project .grid .col-2 h2, #more-project .grid .col-2 h3{
+  text-align: center;
+  margin-bottom:0.3em;
+}
+
+#more-project a:after {
+  border: none;
+}
+
+
 #more-project .arrow {
   margin-top: auto;
   font-size: 1.5em;
@@ -497,11 +507,6 @@ code {
   transition: 0.4s all;
   padding: 0 0.2em;
 }
-
-#more-project a:after {
-  border: none;
-}
-
 #more-project .next-project:hover .arrow {
   padding-left:0.8em;
 }
@@ -665,9 +670,13 @@ p.social img {
   }
  */
 
-
   /*-----------------------------------
    END NAVIGATION
+  -----------------------------------*/  
+  
+  
+  /*-----------------------------------
+   GENERAL GRID
   -----------------------------------*/
 
   .col-2.grid-text {
@@ -681,6 +690,15 @@ p.social img {
 
   .details .col-3:nth-of-type(1), .details .col-3:nth-of-type(2) {
     margin-bottom: 0.8em;
+  }  
+  
+  /*-----------------------------------
+   END GENERAL GRID
+  -----------------------------------*/
+  
+  #project-nav {
+    display: none;
+    visibility: hidden;
   }
 
 }
@@ -822,6 +840,48 @@ p.social img {
 
   /*-----------------------------------
    PROJECT DETAIL ENDS
+  -----------------------------------*/
+  
+  
+    
+  /*-----------------------------------
+   PROJECT NAV
+  -----------------------------------*/
+  
+  #project-nav {
+    background: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8em;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.6;
+    transition: 0.4s all;
+    border-top: 1px solid #e3e3e3;
+  }
+  
+  #project-nav ul {
+    padding: 0.7em 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  #project-nav ul li {  
+    display: inline-block;
+    padding: 0 1em;
+    line-height: 2em;
+    letter-spacing: 0.2em;
+  }
+  
+  #project-nav:hover {
+    opacity: 1;
+  }
+    
+  /*-----------------------------------
+   END PROJECT NAV
   -----------------------------------*/
 
   .narrow {

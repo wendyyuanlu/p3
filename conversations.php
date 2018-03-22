@@ -83,7 +83,7 @@
             <h3><span class="subtext">Initial Sketches</span></h3>
             <div class="narrow">
               <p>
-                The project brief initially included the ability for users to have <a href="#futurescope">multiple live conversations without interrupting their workflow</a>. However, it was eventually de-scoped so that it only focused on revamping the features that already existed in the current product. As a result, the project was limited to the Private Messages page only.
+                The project brief initially included the ability for users to have <a href="#future">multiple live conversations</a> without interrupting their workflow. However, it was eventually de-scoped so that it only focused on revamping the features that already existed in the current product. As a result, the project was limited to the Private Messages page only.
               </p>
 
               <p>
@@ -260,19 +260,28 @@
               </div>
           </section> <!--end panel-->
 
+          <section id="more-project" class="panel">
+            <section class="grid column-center">
+              <div class="prev-project col-2">
+                <a href="makerlabs.php">
+                  <h3><span class="subtext">Research & UX Design</span></h3>
+                  <h2>MakerLabs</h2>
+                  <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13"></p>
+                </a>
+              </div>
+            </section>
+          </section>
+
         </section> <!--end id="project-detail"-->
 
-        <section id="more-project" class="panel">
-          <section class="grid column-center">
-            <div class="prev-project col-2">
-              <a href="makerlabs.php">
-                <h3><span class="subtext">Research & UX Design</span></h3>
-                <h2>MakerLabs</h2>
-                <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13"></p>
-              </a>
-            </div>
-          </section>
+        <section id="project-nav">
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#problem">The Problem</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#final">Final Design</a></li>
+            <li><a href="#future">Future Scope</a></li>
+          </ul>
         </section>
-
 
 <?php include('footer.php'); ?>
