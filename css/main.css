@@ -879,6 +879,10 @@ p.social img {
   #project-nav:hover {
     opacity: 1;
   }
+  
+  #project-nav a:focus {
+    outline: none;
+  }
 
 	.slideUp {
 	  animation-name: slideUp;

@@ -7,6 +7,7 @@
       Travelocity -->
 
       <script src="js/main.js"></script>
+      <script src="js/zenscroll-min.js"></script>
 
       <footer>
         <!-- <p class="social">
