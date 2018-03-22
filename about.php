@@ -20,7 +20,7 @@
 
 
             <div class="col-2">
-              <img src="img/thumb/makerlabs.jpg" alt="Wendy Lu">
+              <img src="img/wendy.jpg" alt="Wendy Lu">
             </div>
           </section>
 

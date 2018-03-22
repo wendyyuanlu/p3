@@ -7,7 +7,7 @@
                 <h1>MakerLabs</h1>
                 <h3><span class="subtext">Research & UX Design</span></h3>
                 <p>
-                  A website redesign for MakerLabs that improves the way they communicate their identity and services to potential customers. It aims to bring the friendly, in-store experience to the website and help people easily find the information they need.
+                  This website redesign for MakerLabs proposes to improve the way they communicate their identity and services to potential customers. It aims to bring the friendly in-store experience to the website and help customers easily find the information they need.
                 </p>
                 <p>
                   This was a 12 week research-driven project where we worked closely with a Vancouver-based makerspace company.
