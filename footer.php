@@ -6,6 +6,8 @@
       Seeing AI
       Travelocity -->
 
+      <script src="js/main.js"></script>
+
       <footer>
         <!-- <p class="social">
           <a href="http://flickr.com/photos/heywendylu" onclick="target='_blank'"><img src="img/flickr1.png" alt="Flickr"></a>

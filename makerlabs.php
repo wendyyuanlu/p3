@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
         <section id="project-detail">
 
-          <section id="panel" class="panel intro">
+          <section id="overview" class="panel intro">
             <div class="grid">
               <div class="col-2">
                 <h1>MakerLabs</h1>
@@ -12,17 +12,6 @@
                 <p>
                   This was a 12 week research-driven project where we worked closely with a Vancouver-based makerspace company.
                 </p>
-
-                  <!-- A website redesign for a Vancouver-based company that improves how they communicate their identity, values, and services to potential and existing customers.
-
-                  A research-driven project for a Vancouver-based company that led to a website redesign that improves the discoverability of their services. Communicates value & benefits of their services to customers. Improve the process of ordering services
-
-                  We want to help MakerLabs implement a system that
-  correlates to their business model. This includes how
-  MakerLabs communicates their identity and services
-  to potential customers. As well as the process of how
-  customers get in touch with MakerLabs, and how
-  MakerLabs manages their customers’ inquiries.</p> -->
               </div>
               <div class="col-2">
                 <img src="img/overview/makerlabs.png" alt="Website redesign for MakerLabs">
@@ -47,7 +36,7 @@
             </div>
           </section> <!--end panel-->
 
-          <section class="panel">
+          <section id="client" class="panel">
             <h2>Our Client</h2>
             <h3><span class="subtext">MakerLabs</span></h3>
             <div class="narrow">
@@ -96,7 +85,7 @@
             </div>
           </section> <!--end panel-->
 
-          <section class="panel">
+          <section id="research" class="panel">
             <h2>Research</h2>
             <h3><span class="subtext">Ethnography</span></h3>
             <div class="narrow">
@@ -180,7 +169,7 @@
             </div> <!--end narrow-->
           </section> <!--end panel-->
 
-          <section class="panel">
+          <section id="ideation" class="panel">
             <h2>Ideation</h2>
             <div class="narrow">
               <p>
@@ -207,7 +196,7 @@
             </figure>
           </section> <!--end panel-->
 
-          <section class="panel">
+          <section id="final" class="panel">
             <h2>Final Design</h2>
             <div class="narrow">
               <p>
@@ -342,6 +331,16 @@
           </section>
 
         </section> <!--end id="work-detail"-->
+
+        <section id="project-nav" class="hidden">
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#client">Client</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#ideation">Ideation</a></li>
+            <li><a href="#final">Final Design</a></li>
+          </ul>
+        </section>
 
 
 <?php include('footer.php'); ?>

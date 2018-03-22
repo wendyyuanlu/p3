@@ -1,51 +1,59 @@
-
 'use strict';
 
 
+var projectNav = document.querySelector("#project-nav");
+var navVisible = false;
 
-var menuMobile = document.querySelector("#mobile");
-var menuDesktop1 = document.querySelector("#desktop1");
-var menuDesktop2 = document.querySelector("#desktop2");
+window.onscroll = function() {
+  projectNavCheck();
+};
 
-var menuButton = document.querySelector("#menu-button");
-var menuItems = document.querySelector("#menu-items");
-var menuFirstItem = document.querySelector("#menu-items a");
+function projectNavCheck(){
+  //https://stackoverflow.com/questions/1248081/get-the-browser-viewport-dimensions-with-javascript?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+  var windowHeight = window.innerHeight;
+
+  //https://stackoverflow.com/questions/1145850/how-to-get-height-of-entire-document-with-javascript
+  var pageHeight = document.documentElement.scrollHeight;
 
 
 
-/*https://codepen.io/jondlm/pen/doijJ*/
-go();
-window.addEventListener('resize', go);
 
-function go(){
-  console.log ("Width: "+document.documentElement.clientWidth);
-
-  if (document.documentElement.clientWidth < 750) {
-
-  	menuButton.classList.remove("hidden");
-  	menuButton.setAttribute("aria-hidden", "false");
-  	menuItems.classList.add("hidden");
-  	menuItems.setAttribute("aria-hidden", "true");
-  	menuItems.setAttribute("aria-labelledby", "menu-button");
-
+  if (navVisible == true) {
+    navShow();
+  } else if (navVisible == false) {
+    navHide();
   }
+
+
+  //scrolltop code from https://www.w3schools.com/jsreF/tryit.asp?filename=tryjsref_onscroll3
+  if (document.body.scrollTop <= 200 || document.documentElement.scrollTop <= 200) {
+   navVisible = false;
+  }
+
+   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    navVisible = true;
+  }
+
+  //get height of document:
+  if (document.body.scrollTop >= (pageHeight - windowHeight - 200) || document.documentElement.scrollTop >= (pageHeight - windowHeight - 200)) {
+   navVisible = false;
+  }
+  console.log (navVisible);
+
 }
 
-menuButton.addEventListener("click",
+function navShow() {
+  projectNav.setAttribute("aria-expanded", "true");
+  projectNav.classList.remove("hidden");
+  projectNav.classList.add("slideUp");
+  projectNav.classList.remove("slideDown");
+}
 
-	function() {
-
-		if ( menuItems.classList.contains("hidden") ) {
-			menuItems.classList.remove("hidden");
-			menuItems.setAttribute("aria-hidden", "false");
-			menuButton.setAttribute("aria-expanded", "true");
-			menuFirstItem.focus();
-		}
-
-		else {
-			menuItems.classList.add("hidden");
-			menuItems.setAttribute("aria-hidden", "true");
-			menuButton.setAttribute("aria-expanded", "false");
-		}
-	}
-);
+function navHide() {
+  projectNav.setAttribute("aria-hidden", "true");
+  projectNav.classList.add("slideDown");
+  projectNav.classList.remove("slideUp");
+  window.setTimeout(function(){
+    projectNav.classList.add("hidden");
+  }, 800);
+}

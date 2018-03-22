@@ -197,10 +197,10 @@ footer a {
   text-transform: uppercase;
 }
 
-/* .hidden {
+.hidden {
   display: none;
   visibility: hidden;
-} */
+}
 
 .container {
   display: flex;
@@ -672,9 +672,9 @@ p.social img {
 
   /*-----------------------------------
    END NAVIGATION
-  -----------------------------------*/  
-  
-  
+  -----------------------------------*/
+
+
   /*-----------------------------------
    GENERAL GRID
   -----------------------------------*/
@@ -690,12 +690,12 @@ p.social img {
 
   .details .col-3:nth-of-type(1), .details .col-3:nth-of-type(2) {
     margin-bottom: 0.8em;
-  }  
-  
+  }
+
   /*-----------------------------------
    END GENERAL GRID
   -----------------------------------*/
-  
+
   #project-nav {
     display: none;
     visibility: hidden;
@@ -841,13 +841,13 @@ p.social img {
   /*-----------------------------------
    PROJECT DETAIL ENDS
   -----------------------------------*/
-  
-  
-    
+
+
+
   /*-----------------------------------
    PROJECT NAV
   -----------------------------------*/
-  
+
   #project-nav {
     background: #fff;
     text-transform: uppercase;
@@ -862,24 +862,54 @@ p.social img {
     transition: 0.4s all;
     border-top: 1px solid #e3e3e3;
   }
-  
+
   #project-nav ul {
     padding: 0.7em 0;
     margin: 0;
     list-style-type: none;
   }
-  
-  #project-nav ul li {  
+
+  #project-nav ul li {
     display: inline-block;
     padding: 0 1em;
     line-height: 2em;
     letter-spacing: 0.2em;
   }
-  
+
   #project-nav:hover {
     opacity: 1;
   }
-    
+
+	.slideUp {
+	  animation-name: slideUp;
+	  animation-duration: 0.8s;
+    display: block;
+    visibility: visible;
+	}
+
+	@keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+	}
+
+	.slideDown {
+	  animation-name: slideDown;
+	  animation-duration: 0.8s;
+	}
+
+	@keyframes slideDown {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+	}
+
   /*-----------------------------------
    END PROJECT NAV
   -----------------------------------*/

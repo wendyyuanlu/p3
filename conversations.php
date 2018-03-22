@@ -274,7 +274,8 @@
 
         </section> <!--end id="project-detail"-->
 
-        <section id="project-nav">
+
+        <section id="project-nav" class="hidden">
           <ul>
             <li><a href="#overview">Overview</a></li>
             <li><a href="#problem">The Problem</a></li>
