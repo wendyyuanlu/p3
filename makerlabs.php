@@ -96,7 +96,7 @@
               <div class="col-2">
                 <figure>
                   <img src="img/projects/makerlabs/participant-admin.jpg" alt="Admin">
-                  <p><strong>Admins/Community Managers</strong>: taff members who with company affairs & works with customers</p>
+                  <p><strong>Admins/Community Managers</strong>: Staff members who with company affairs & works with customers</p>
                 </figure>
               </div>
 
@@ -127,7 +127,7 @@
 
             <div class="narrow">
               <p>
-                In each visit, I would report our findings to the CEO on the different opportunities we identified, and this led them to take initiative on several of these opportunites and business problems.
+                In each visit, I would report our findings to the CEO on the different opportunities we identified, and this led them to take initiative on several of these opportunities and business problems.
               </p>
             </div> <!--end narrow-->
 
@@ -168,7 +168,7 @@
 
             <div class="narrow">
               <p>
-                We found that that the MakerLabs staff often have to answer questions (both in person and over e-mail) that are already available on their website because customers are unable to find them. Furthermore, their long e-mail threads often revolve around providing quotes for outsourced projects because customers usually do not provide enough detail in their e-mails.
+                We found that the MakerLabs staff often have to answer questions (both in person and over e-mail) that are already available on their website because customers are unable to find them. Furthermore, their long e-mail threads often revolve around providing quotes for outsourced projects because customers usually do not provide enough detail in their e-mails.
               </p>
             </div> <!--end narrow-->
           </section> <!--end panel-->
@@ -204,7 +204,7 @@
             <h2>Final Design</h2>
             <div class="narrow">
               <p>
-                I designed the user interface and then turned it into a clickable prototype. Our client wanted a clean website and preferred icons/illustrations over photographs so that the visual content wouldn't be overwhelming.
+                I designed the user interface and then turned it into a clickable prototype using Axure. Our client wanted a clean website and preferred icons/illustrations over photographs so that the visual content wouldn't be overwhelming.
               </p>
             </div>
 
@@ -326,7 +326,7 @@
 
               <div class="col-2">
                 <p>
-                  We presented our concept to the MakerLabs team, including all of the stakeholders we worked closely with throughout the project. Our concept was very well received and our research findings helped MakerLabs gain a different persepctive as well as identify opporunities in their business process.
+                  We presented our concept to the MakerLabs team, including all of the stakeholders we worked closely with throughout the project. Our concept was very well received and our research findings helped MakerLabs gain a different perspective as well as identify opportunities in their business process.
                 </p>
                 <p>
                   Some of largest takeaways for me in this project is working with a client that my team and I had no prior connection with. As the main point of contact with the client, I learned how to pitch myself to a client, how to effectively communicate with them throughout a project, how to propose a concept to them, as well as how to be sensitive when discussing business problems or opportunities.
