@@ -315,16 +315,16 @@
 
             <div class="spacer-1"></div>
 
+            <h3><span class="subtext">Presentation & Takeaway</span></h3>
 
             <div class="grid grid-center">
               <div class="col-2">
                 <figure>
-                  <img src="img/projects/makerlabs/presentation.png" alt="Presenting our concept to MakerLabs">
+                  <img src="img/projects/makerlabs/presentation.jpg" alt="Presenting our concept to MakerLabs">
                 </figure>
               </div>
 
               <div class="col-2">
-                <h3><span class="subtext">Presentation & Takeaway</span></h3>
                 <p>
                   We presented our concept to the MakerLabs team, including all of the stakeholders we worked closely with throughout the project. Our concept was very well received and our research findings helped MakerLabs gain a different persepctive as well as identify opporunities in their business process.
                 </p>
