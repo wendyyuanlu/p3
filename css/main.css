@@ -810,6 +810,14 @@ p.social img {
   #project-detail h1, #project-detail .grid h2, #project-detail .grid h3 {
     text-align: left;
   }
+  
+  #project-detail a img {
+    transition: 0.4s all;
+  }
+  
+  #project-detail a img:hover {
+    transform: scale(1.02);
+  }
 
   .intro .grid {
     align-items: center;
@@ -856,12 +864,12 @@ p.social img {
     font-size: 0.8em;
     position: fixed;
     z-index: 1000;
-    bottom: 0;
+    top: 0;
     right: 0;
     left: 0;
-    opacity: 0.6;
+    opacity: 0.8;
     transition: 0.4s all;
-    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
   }
 
   #project-nav ul {
@@ -881,35 +889,36 @@ p.social img {
     opacity: 1;
   }
 
-	.slideUp {
+	.slideDown {
+	  animation-name: slideDown;
+	  animation-duration: 0.4s;
+	}
+
+	@keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+	}
+
+
+/* 	.slideUp {
 	  animation-name: slideUp;
-	  animation-duration: 0.8s;
+	  animation-duration: 0.4s;
     display: block;
     visibility: visible;
 	}
 
 	@keyframes slideUp {
     0% {
-      transform: translateY(100%);
-    }
-    100% {
-      transform: translateY(0%);
-    }
-	}
-
-	.slideDown {
-	  animation-name: slideDown;
-	  animation-duration: 0.8s;
-	}
-
-	@keyframes slideDown {
-    0% {
       transform: translateY(0%);
     }
     100% {
-      transform: translateY(100%);
+      transform: translateY(-100%);
     }
-	}
+	} */
 
   /*-----------------------------------
    END PROJECT NAV
