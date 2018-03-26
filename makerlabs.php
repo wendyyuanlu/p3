@@ -74,15 +74,6 @@
                 </figure>
               </div>
             </div> <!--end grid-->
-
-            <div class="spacer-1"></div>
-
-            <h3><span class="subtext">How do we convince a business to work with us for 12 weeks?</span></h3>
-            <div class="narrow">
-              <p>
-                Having no prior connection with MakerLabs, approaching and convincing them to participate in our project was one of our largest challenges. We met with the CEO and pitched ourselves as design consultants. I explained that our research-driven project will help them discover new perspectives on their business process, and based on the business opportunities we may discover, we will propose and prototype a concept to them. Despite being a nerve wracking experience, it was successful and we dove into the research process.
-              </p>
-            </div>
           </section> <!--end panel-->
 
           <section id="research" class="panel">
@@ -125,14 +116,27 @@
             </div> <!--end grid-->
 
             <div class="narrow">
-              <p>In the first few weeks, we conducted various on-site research methods, such as formal and informal interviews, job shadowing, note taking, studio tours, audio and video recording, and photography. In each visit, I would report our findings to the CEO on the different opportunities we identified, and this led them to take initiative on several of these opportunites and business problems.
+              <p>
+                In the first few weeks, we conducted various on-site research methods, such as formal and informal interviews, job shadowing, note taking, studio tours, audio and video recording, and photography.
+              </p>
+            </div>
+
+            <figure>
+              <img src="img/projects/makerlabs/research.png" alt="Research methods">
+            </figure>
+
+            <div class="narrow">
+              <p>
+                In each visit, I would report our findings to the CEO on the different opportunities we identified, and this led them to take initiative on several of these opportunites and business problems.
               </p>
             </div> <!--end narrow-->
+
+            <div class="spacer-1"></div>
 
             <h3><span class="subtext">Cultural Probes</span></h3>
             <div class="narrow">
               <p>
-                We then created three cultural probe kits to get a better understanding of our client and left these kits with them for a week. To prevent them from feeling like chores, we designed four crafty activites to help us learn about their daily productivity and their experiences with the company.
+                We created three cultural probe kits to get a better understanding of our client and left these kits with them for a week. To prevent them from feeling like chores, we designed four crafty activites to help us learn about their daily productivity and their experiences with the company.
               </p>
             </div>
 
@@ -248,7 +252,7 @@
 
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/makerlabs/final-order3.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-order3.jpg" alt="Get a quote - choose material"></a>
+                  <a href="img/projects/makerlabs/final-order2.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-order2.jpg" alt="Get a quote - choose material"></a>
                 </figure>
               </div>
             </div> <!--end grid-->
@@ -277,7 +281,7 @@
 
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/makerlabs/final-classes3.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-classes3.jpg" alt="Get a quote - choose material"></a>
+                  <a href="img/projects/makerlabs/final-classes2.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-classes2.jpg" alt="Get a quote - choose material"></a>
                 </figure>
               </div>
             </div> <!--end grid-->
@@ -308,6 +312,30 @@
                 </figure>
               </div>
             </div> <!--end grid-->
+
+            <div class="spacer-1"></div>
+
+
+            <div class="grid grid-center">
+              <div class="col-2">
+                <figure>
+                  <img src="img/projects/makerlabs/presentation.png" alt="Presenting our concept to MakerLabs">
+                </figure>
+              </div>
+
+              <div class="col-2">
+                <h3><span class="subtext">Presentation & Takeaway</span></h3>
+                <p>
+                  We presented our concept to the MakerLabs team, including all of the stakeholders we worked closely with throughout the project. Our concept was very well received and our research findings helped MakerLabs gain a different persepctive as well as identify opporunities in their business process.
+                </p>
+                <p>
+                  Some of largest takeaways for me in this project is working with a client that my team and I had no prior connection with. As the main point of contact with the client, I learned how to pitch myself to a client, how to effectively communicate with them throughout a project, how to propose a concept to them, as well as how to be sensitive when discussing business problems or opportunities.
+                </p>
+                  <!-- Having no prior connection with MakerLabs, approaching and convincing them to participate in our project was one of our largest challenges. We met with the CEO and pitched ourselves as design consultants. I explained that our research-driven project will help them discover new perspectives on their business process, and based on the business opportunities we may discover, we will propose and prototype a concept to them. Despite being a nerve wracking experience, it was successful and we dove into the research process. -->
+                </p>
+              </div>
+            </div> <!--end grid-->
+
           </section> <!--end panel-->
 
           <section id="more-project" class="panel">
