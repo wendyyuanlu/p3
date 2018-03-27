@@ -4,9 +4,9 @@
           <section id="overview" class="panel intro">
             <div class="grid">
               <div class="col-2">
-                <h1>Conversations for SAP Jam</h1>
+                <h1>Conversations for SAP Jam Collaboration</h1>
                 <h3><span class="subtext">UX/UI Design & Art Direction</span></h3>
-                <p>Conversations is a revamp of the "Private Messages" feature on SAP Jam Collaboration (an enterprise collaboration platform) that allows members of an organization to have direct, real-time messaging with colleagues and bots via a lightweight user interface. It is web-reponsive and supports both desktop and mobile devices.</p>
+                <p>Conversations is a revamp of the "Private Messages" feature on SAP Jam Collaboration (an enterprise collaboration platform) that allows members of an organization to have direct, real-time messaging with their colleagues and bots via a lightweight user interface. It is web-reponsive and supports both desktop and mobile devices.</p>
                 <p>Throughout this project, I worked closely with another UX designer, the Development team and the lead Product Manager.</p>
               </div>
               <div class="col-2">
@@ -304,7 +304,7 @@
                 <a href="makerlabs.php">
                   <h3><span class="subtext">Research & UX Design</span></h3>
                   <h2>MakerLabs</h2>
-                  <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13"></p>
+                  <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13" alt="next"></p>
                 </a>
               </div>
             </section>

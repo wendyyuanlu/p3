@@ -265,9 +265,9 @@ h1 .highlight:after {
   text-align: left;
 } */
 
-/* #styleguide hr {
+#styleguide hr {
   margin: 3em 0;
-} */
+}
 
 #styleguide #more-project .grid {
   margin-bottom:1em;
@@ -591,23 +591,23 @@ p.social img {
     margin-right: 0.3em;
   }
 
-  nav #desktop1 {
+  nav #desktop1, nav #desktop1-style {
     width: calc(50% - 70px - 4.2em);
     text-align: right;
   }
 
-  nav #desktop2 {
+  nav #desktop2, nav #desktop2-style {
     width: calc(50% - 70px - 4.2em);
     text-align: left;
   }
 
 
-  nav #desktop1 ul li:first-child {
+  nav #desktop1 ul li:first-child, nav #desktop1-style ul li:first-child {
     padding-left: 0;
     margin-left: 0;
   }
 
-  nav #desktop2 ul li:last-child {
+  nav #desktop2 ul li:last-child, nav #desktop2-style ul li:last-child {
     padding-right: 0;
     margin-right: 0;
   }
@@ -619,7 +619,7 @@ p.social img {
     visibility: visible;
   }
 
-  nav #mobile {
+  nav #mobile, nav #mobile-style {
     display: none;
     visibility: hidden;
   }
@@ -810,11 +810,11 @@ p.social img {
   #project-detail h1, #project-detail .grid h2, #project-detail .grid h3 {
     text-align: left;
   }
-  
+
   #project-detail a img {
     transition: 0.4s all;
   }
-  
+
   #project-detail a img:hover {
     transform: scale(1.02);
   }

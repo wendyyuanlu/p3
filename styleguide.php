@@ -109,33 +109,58 @@
             <section>
               <h2>Main Navigation</h2>
               <h3><span class="subtext">Sample Code</span></h3>
-              <code>
+              <code>&lt;header&gt;
+                  &lt;nav&gt;
+                    &lt;div id=&quot;desktop1&quot; class=&quot;desktop&quot;&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Work&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;logo&quot;&gt;
+                      &lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;img/logo.png&quot; alt=&quot;Wendy Lu&quot;&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+
+                    &lt;div id=&quot;desktop2&quot; class=&quot;desktop&quot;&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/div&gt;
+
+                    &lt;div id=&quot;mobile&quot; class=&quot;mobile&quot;&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Work&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/div&gt;
+
+                  &lt;/nav&gt;
+                &lt;/header&gt;
               </code>
 
               <h3><span class="subtext">Rendered Element</span></h3>
               <header>
-
                 <nav>
-                  <div id="desktop1" class="desktop">
+                  <div id="desktop1-style" class="desktop">
                     <ul>
-                      <li><a href="index.php">Work</a></li>
+                      <li><a href="#">Work</a></li>
                     </ul>
                   </div>
 
                   <div class="logo">
-                    <a href="index.php"><img src="img/logo.png" alt="Wendy Lu"></a>
+                    <a href="#"><img src="img/logo.png" alt="Wendy Lu"></a>
                   </div>
 
-                  <div id="desktop2" class="desktop">
+                  <div id="desktop2-style" class="desktop">
                     <ul>
-                      <li><a href="about.php">About</a></li>
+                      <li><a href="#">About</a></li>
                     </ul>
                   </div>
 
-                  <div id="mobile" class="mobile">
+                  <div id="mobile-style" class="mobile">
                     <ul>
-                      <li><a href="index.php">Work</a></li>
-                      <li><a href="about.php">About</a></li>
+                      <li><a href="#">Work</a></li>
+                      <li><a href="#">About</a></li>
                     </ul>
                   </div>
 
@@ -262,8 +287,25 @@
             <section>
               <h2>More Project Tiles</h2>
               <h3><span class="subtext">Sample Code</span></h3>
-              <code>
+              <code>&lt;section id=&quot;more-project&quot;&gt;
+                  &lt;section class=&quot;grid&quot;&gt;
+                    &lt;div class=&quot;prev-project col-2&quot;&gt;
+                      &lt;a href=&quot;#&quot;&gt;
+                        &lt;h3&gt;&lt;span class=&quot;subtext&quot;&gt;UX/UI Design&lt;/span&gt;&lt;/h3&gt;
+                        &lt;h2&gt;Seeing AI&lt;/h2&gt;
+                        &lt;p class=&quot;arrow&quot;&gt;&lt;img src=&quot;img/arrow-prev.svg&quot; onerror=&quot;this.src='img/arrow-prev.png'&quot; width=&quot;30&quot; height=&quot;13&quot;&gt;&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
 
+                    &lt;div class=&quot;next-project col-2&quot;&gt;
+                      &lt;a href=&quot;#&quot;&gt;
+                        &lt;h3&gt;&lt;span class=&quot;subtext&quot;&gt;UX/UI & Art Direction&lt;/span&gt;&lt;/h3&gt;
+                        &lt;h2&gt;Conversations for SAP Jam&lt;/h2&gt;
+                        &lt;p class=&quot;arrow&quot;&gt;&lt;img src=&quot;img/arrow-next.svg&quot; onerror=&quot;this.src='img/arrow-next.png'&quot; width=&quot;30&quot; height=&quot;13&quot;&gt;&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+                  &lt;/section&gt;
+                &lt;/section&gt;
               </code>
 
               <h3><span class="subtext">Rendered Element</span></h3>
@@ -273,7 +315,7 @@
                     <a href="#">
                       <h3><span class="subtext">UX/UI Design</span></h3>
                       <h2>Seeing AI</h2>
-                      <p class="arrow">&larr;</p>
+                      <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13" alt="next"></p>
                     </a>
                   </div>
 
@@ -281,7 +323,7 @@
                     <a href="#">
                       <h3><span class="subtext">UX/UI & Art Direction</span></h3>
                       <h2>Conversations for SAP Jam</h2>
-                      <p class="arrow">&rarr;</p>
+                      <p class="arrow"><img src="img/arrow-next.svg" onerror="this.src='img/arrow-next.png'" width="30" height="13" alt="next"></p>
                     </a>
                   </div>
                 </section>
@@ -293,53 +335,54 @@
             <section>
               <h2>Project Preview Tiles</h2>
               <h3><span class="subtext">Sample Code</span></h3>
-              <code>&lt;section class="work-container grid"&gt;
-               &lt;div class="work-item col-2"&gt;
-               &lt;figure&gt;
-               &lt;a href="project1.html"&gt;&lt;img src="img/thumb/conversations.jpg" alt="Conversations for SAP Jam"&gt;&lt;/a&gt;
-               &lt;/figure&gt;
+              <code>&lt;section class=&quot;work-container grid&quot;&gt;
+                  &lt;div class=&quot;work-item col-2&quot;&gt;
+                    &lt;figure&gt;
+                      &lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;img/thumb/conversations.jpg&quot; alt=&quot;Conversations&quot;&gt;&lt;/a&gt;
+                    &lt;/figure&gt;
 
-               &lt;a href="#"&gt;
-               &lt;div class="work-overview"&gt;
-               &lt;h3&gt;&lt;span class="subtext"&gt;UX/UI &amp; Art Direction&lt;/span&gt;&lt;/h3&gt;
-               &lt;h2&gt;Conversations for SAP Jam&lt;/h2&gt;
-               &lt;p class="description"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum, diam ac ultrices viverra, massa libero ullamcorper ex.&lt;/p&gt;
-               &lt;p class="arrow"&gt;&amp;rarr;&lt;/p&gt;
-               &lt;/div&gt;
-               &lt;/a&gt;
-               &lt;/div&gt;
+                    &lt;a href=&quot;#&quot;&gt;
+                      &lt;div class=&quot;work-overview&quot;&gt;
+                        &lt;h3&gt;&lt;span class=&quot;subtext&quot;&gt;UX/UI & Art Direction&lt;/span&gt;&lt;/h3&gt;
+                        &lt;h2&gt;Conversations&lt;/h2&gt;
+                        &lt;p class=&quot;description&quot;&gt;A bot-friendly messaging feature that expedites existing workflows by improving the communication between members of an organization.&lt;/p&gt;
+                        &lt;p class=&quot;arrow&quot;&gt;&lt;img src=&quot;img/arrow-next.svg&quot; onerror=&quot;this.src='img/arrow-next.png'&quot; width=&quot;30&quot; height=&quot;13&quot;&gt;&lt;/p&gt;
+                      &lt;/div&gt;
+                    &lt;/a&gt;
+                  &lt;/div&gt;
 
+                  &lt;div class=&quot;work-item col-2&quot;&gt;
+                    &lt;figure&gt;
+                      &lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;img/thumb/makerlabs.jpg&quot; alt=&quot;MakerLabs&quot;&gt;&lt;/a&gt;
+                    &lt;/figure&gt;
 
-               &lt;div class="work-item col-2"&gt;
-               &lt;figure&gt;
-               &lt;a href="#"&gt;&lt;img src="img/thumb/makerlabs.jpg" alt="MakerLabs"&gt;&lt;/a&gt;
-               &lt;/figure&gt;
-
-               &lt;a href="#"&gt;
-               &lt;div class="work-overview"&gt;
-               &lt;h3&gt;&lt;span class="subtext"&gt;Research &amp; UX Design&lt;/span&gt;&lt;/h3&gt;
-               &lt;h2&gt;MakerLabs&lt;/h2&gt;
-               &lt;p class="description"&gt;Guismod nec nunc vel, ultrices cursus sapien. Vivamus molestie gravida lacus, id ullamcorper lorem volutpat eu.&lt;/p&gt;
-               &lt;p class="arrow"&gt;&amp;rarr;&lt;/p&gt;
-               &lt;/div&gt;
-               &lt;/a&gt;
-               &lt;/div&gt;
-               &lt;/section&gt;
+                    &lt;a href=&quot;#&quot;&gt;
+                      &lt;div class=&quot;work-overview&quot;&gt;
+                        &lt;h3&gt;&lt;span class=&quot;subtext&quot;&gt;Research & UX Design&lt;/span&gt;&lt;/h3&gt;
+                        &lt;h2&gt;MakerLabs&lt;/h2&gt;
+                        &lt;p class=&quot;description&quot;&gt;
+                          A website redesign that highlights the core services offered by a makerspace company and improves the handling of customer inquiries.
+                        &lt;/p&gt;
+                        &lt;p class=&quot;arrow&quot;&gt;&lt;img src=&quot;img/arrow-next.svg&quot; onerror=&quot;this.src='img/arrow-next.png'&quot; width=&quot;30&quot; height=&quot;13&quot;&gt;&lt;/p&gt;
+                      &lt;/div&gt;
+                    &lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/section&gt;
               </code>
 
               <h3><span class="subtext">Rendered Element</span></h3>
               <section class="work-container grid">
                 <div class="work-item col-2">
                   <figure>
-                    <a href="project1.html"><img src="img/thumb/conversations.jpg" alt="Conversations for SAP Jam"></a>
+                    <a href="#"><img src="img/thumb/conversations.jpg" alt="Conversations"></a>
                   </figure>
 
                   <a href="#">
                     <div class="work-overview">
                       <h3><span class="subtext">UX/UI & Art Direction</span></h3>
-                      <h2>Conversations for SAP Jam</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum, diam ac ultrices viverra, massa libero ullamcorper ex.</p>
-                      <p class="arrow">&rarr;</p>
+                      <h2>Conversations</h2>
+                      <p class="description">A bot-friendly messaging feature that expedites existing workflows by improving the communication between members of an organization.</p>
+                      <p class="arrow"><img src="img/arrow-next.svg" onerror="this.src='img/arrow-next.png'" width="30" height="13" alt="next"></p>
                     </div>
                   </a>
                 </div> <!--end work-item-->
@@ -354,27 +397,15 @@
                     <div class="work-overview">
                       <h3><span class="subtext">Research & UX Design</span></h3>
                       <h2>MakerLabs</h2>
-                      <p class="description">Guismod nec nunc vel, ultrices cursus sapien. Vivamus molestie gravida lacus, id ullamcorper lorem volutpat eu.</p>
-                      <p class="arrow">&rarr;</p>
+                      <p class="description">
+                        A website redesign that highlights the core services offered by a makerspace company and improves the handling of customer inquiries.
+                      </p>
+                      <p class="arrow"><img src="img/arrow-next.svg" onerror="this.src='img/arrow-next.png'" width="30" height="13" alt="next"></p>
                     </div>
                   </a>
                 </div> <!--end work-item-->
               </section>
 
-              <hr>
-            </section>
-
-            <section>
-              <h2>In-text Link</h2>
-              <h3><span class="subtext">Sample Code</span></h3>
-              <code>
-
-              </code>
-
-              <h3><span class="subtext">Rendered Element</span></h3>
-
-
-              <hr>
             </section>
 
           </section><!-- end styleguide-->
