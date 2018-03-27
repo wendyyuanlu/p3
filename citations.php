@@ -8,6 +8,7 @@
           <p>Marquizzo (2017, May 19). <em>How to get height of entire document with JavaScript?</em> Retrieved from https://stackoverflow.com/questions/1145850/how-to-get-height-of-entire-document-with-javascript</p>
           <p>Sorensen, C. (n.d.). <em>Playfair Display.</em> Retrieved from https://fonts.google.com/specimen/Playfair+Display</p>
           <p>W3schools (n.d.). <em>HTML DOM scrollTop Property.</em> Retrieved from https://www.w3schools.com/jsreF/tryit.asp?filename=tryjsref_onscroll3</p>
+          <p>Zengabor. (2018, March 1). <em>Zenscroll.</em> Retrieved from https://github.com/zengabor/zenscroll</p>
 
         </section><!--end panel-->
 

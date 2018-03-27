@@ -274,8 +274,8 @@ h1 .highlight:after {
 }
 
 code {
-  font-size: 1em;
-  font-family: 'Muli';
+  font-size: 0.8em;
+  line-height: 1.4em;
   background: #fff;
   white-space: pre-line;
   display: block;

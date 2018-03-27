@@ -34,8 +34,6 @@ function projectNavCheck(){
     navVisible = true;
   }
 
-  console.log(navVisible);
-
   //get height of document:
   // if (document.body.scrollTop >= (pageHeight - windowHeight - 200) || document.documentElement.scrollTop >= (pageHeight - windowHeight - 200)) {
   //  navVisible = false;

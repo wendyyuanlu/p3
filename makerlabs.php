@@ -320,7 +320,6 @@
                   Some of largest takeaways for me in this project is working with a client that my team and I had no prior connection with. As the main point of contact with the client, I learned how to pitch myself to a client, how to effectively communicate with them throughout a project, how to propose a concept to them, as well as how to be sensitive when discussing business problems or opportunities.
                 </p>
                   <!-- Having no prior connection with MakerLabs, approaching and convincing them to participate in our project was one of our largest challenges. We met with the CEO and pitched ourselves as design consultants. I explained that our research-driven project will help them discover new perspectives on their business process, and based on the business opportunities we may discover, we will propose and prototype a concept to them. Despite being a nerve wracking experience, it was successful and we dove into the research process. -->
-                </p>
               </div>
             </div> <!--end grid-->
 
@@ -332,7 +331,7 @@
                 <a href="#">
                   <h3><span class="subtext">UX/UI Design</span></h3>
                   <h2>Seeing AI</h2>
-                  <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13"></p>
+                  <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13" alt="previous"></p>
                 </a>
               </div> -->
 
@@ -340,7 +339,7 @@
                 <a href="conversations.php">
                   <h3><span class="subtext">UX/UI & Art Direction</span></h3>
                   <h2>Conversations for SAP Jam</h2>
-                  <p class="arrow"><img src="img/arrow-next.svg" onerror="this.src='img/arrow-next.png'" width="30" height="13"></p>
+                  <p class="arrow"><img src="img/arrow-next.svg" onerror="this.src='img/arrow-next.png'" width="30" height="13" alt="next"></p>
                 </a>
               </div>
             </section>

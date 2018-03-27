@@ -315,7 +315,7 @@
                     <a href="#">
                       <h3><span class="subtext">UX/UI Design</span></h3>
                       <h2>Seeing AI</h2>
-                      <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13" alt="next"></p>
+                      <p class="arrow"><img src="img/arrow-prev.svg" onerror="this.src='img/arrow-prev.png'" width="30" height="13" alt="previous"></p>
                     </a>
                   </div>
 
