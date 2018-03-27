@@ -208,6 +208,8 @@
               </p>
             </div>
 
+            <div class="spacer-1"></div>
+
             <h3><span class="subtext">Landing page</span></h3>
             <div class="grid grid-center">
               <div class="col-2 grid-image">
