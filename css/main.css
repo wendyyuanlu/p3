@@ -449,6 +449,10 @@ code {
   text-align: center;
 }
 
+.intro {
+  margin-top: -1em;
+}
+
 .intro .col-2:first-child {
   margin-bottom: 0;
 }
@@ -675,28 +679,6 @@ p.social img {
    END NAVIGATION
   -----------------------------------*/
 
-
-  /*-----------------------------------
-   GENERAL GRID
-  -----------------------------------*/
-
-  .col-2.grid-text {
-    order: 1;
-  }
-
-  .col-2.grid-image {
-    order: 2;
-  }
-
-
-  .details .col-3:nth-of-type(1), .details .col-3:nth-of-type(2) {
-    margin-bottom: 0.8em;
-  }
-
-  /*-----------------------------------
-   END GENERAL GRID
-  -----------------------------------*/
-
   #project-nav {
     display: none;
     visibility: hidden;
@@ -715,7 +697,7 @@ p.social img {
 
   /*-----------------------------------
    GENERAL GRID STRUCTURE
-  -----------------------------------*/
+  -----------------------------------*/  
 
   .col-2, .col-3, .col-4 {
     margin: 0 3%;
@@ -736,11 +718,24 @@ p.social img {
   }
 
   .col-3 {
-    width: calc((100% - 12%)/3 );
+    width: calc((100% - 12%)/3);
   }
 
   .col-4 {
-    width: calc((100% - 18%)/4 );
+    width: calc((100% - 18%)/4);
+  }
+  
+  .col-2.grid-text {
+    order: 1;
+  }
+
+  .col-2.grid-image {
+    order: 2;
+  }
+
+
+  .details .col-3:nth-of-type(1), .details .col-3:nth-of-type(2) {
+    margin-bottom: 0.8em;
   }
 
   /*-----------------------------------
