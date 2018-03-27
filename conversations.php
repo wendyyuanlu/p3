@@ -6,7 +6,7 @@
               <div class="col-2">
                 <h1>Conversations for SAP Jam</h1>
                 <h3><span class="subtext">UX/UI Design & Art Direction</span></h3>
-                <p>Conversations is a revamp of the "Private Messages" feature on SAP Jam Collaboration that allows members of an organization to have direct, real-time messaging with colleagues and bots via a lightweight user interface. It is web-reponsive and supports both desktop and mobile devices.</p>
+                <p>Conversations is a revamp of the "Private Messages" feature on SAP Jam Collaboration (an enterprise collaboration platform) that allows members of an organization to have direct, real-time messaging with colleagues and bots via a lightweight user interface. It is web-reponsive and supports both desktop and mobile devices.</p>
                 <p>Throughout this project, I worked closely with another UX designer, the Development team and the lead Product Manager.</p>
               </div>
               <div class="col-2">
@@ -83,7 +83,7 @@
             <h3><span class="subtext">Initial Sketches</span></h3>
             <div class="narrow">
               <p>
-                The project brief initially included the ability for users to have <a href="#future">multiple live conversations</a> without interrupting their workflow. However, it was eventually de-scoped so that it only focused on revamping the features that already existed in the current product. As a result, the project was limited to the Private Messages page only.
+                The project brief initially included the ability for users to have <a href="#future">multiple live conversations</a> without interrupting their workflow. However, it was eventually de-scoped so that it only focused on revamping the features that already existed in the current product. As a result, the project was limited to the existing Private Messages page only.
               </p>
 
               <p>
@@ -189,6 +189,9 @@
 
             <figure>
               <a href="img/projects/conversations/final-desk.png" onclick="target='_blank'"><img src="img/projects/conversations/final-desk.png" alt="Final design for Conversations"></a>
+              <figcaption>
+                The revamped Conversations page.
+              </figcaption>
             </figure>
 
             <div class="grid">
@@ -227,7 +230,7 @@
             <h3><span class="subtext">Implementation</span></h3>
             <div class="narrow">
               <p>
-                This design was reviewed by both the lead Product Manager and the Director of UX. Working closely with the Development team, I created documentations for both the workflow and UI specifications to guide them as they implemented the feature. Two lead Developers and I then demoed the revamped Conversations feature to several company stakeholders, including Product Managers, Sales, and Customer Support.
+                This design was reviewed and approved by both the lead Product Manager and the Director of UX. Working closely with the Development team, I created documentations for both the workflow and UI specifications to guide them as they implemented the feature. Two lead Developers and I then demoed the revamped Conversations feature to several company stakeholders, including Product Managers, Sales, and Customer Support.
               </p>
             </div> <!--end narrow-->
 
@@ -238,7 +241,7 @@
             <h3><span class="subtext">Sketches</span></h3>
             <div class="narrow">
               <p>
-                With the core workflows complete and improved, I continued my initial exploration of allowing users to engage in multiple conversations without interrupting their workflow. I experimented with how chat popovers would appear on the screen, different points of entry, and the workflow of starting a conversation.
+                With the core workflows complete and approved, I continued my initial exploration of allowing users to engage in multiple conversations without interrupting their workflow. I experimented with how chat popovers would appear on the screen, different points of entry, and the workflow of starting a conversation.
               </p>
             </div> <!--end narrow-->
 
@@ -283,6 +286,16 @@
                   </figcaption>
                 </figure>
               </div>
+            </div>
+
+            <div class="spacer-1"></div>
+
+            <h3><span class="subtext">Reception</span></h3>
+            <div class="narrow">
+              <p>
+                These designs were also positively received by the Development, UX, and Product Management team. They have been documented so that the Development team can continue to implement them after my internship ended.
+              </p>
+            </div> <!--end narrow-->
           </section> <!--end panel-->
 
           <section id="more-project" class="panel">

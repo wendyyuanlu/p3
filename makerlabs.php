@@ -127,7 +127,7 @@
 
             <div class="narrow">
               <p>
-                In each visit, I would report our findings to the CEO on the different opportunities we identified, and this led them to take initiative on several of these opportunities and business problems.
+                In each visit, <strong>I would report our findings to the CEO on the different opportunities we identified, and this led them to take initiative</strong> on several of these opportunities and business problems.
               </p>
             </div> <!--end narrow-->
 
@@ -149,7 +149,7 @@
                 Our major finding was that the MakerLabs team wants to invest more resources into the growth of the company, however, they spend a large portion of their time responding to emails and providing answers that are already on the website.
               </p>
               <p>
-                We narrowed down our design focus and decided we want to help MakerLabs improve the way in which they communicate their identity and services to potential customers as well as how they handle customer inquiries.
+                We narrowed down our design focus and decided <strong>we want to help MakerLabs improve the way in which they communicate their identity and services to potential customers as well as how they handle customer inquiries</strong>.
               </p>
             </div> <!--end narrow-->
 
@@ -204,7 +204,7 @@
             <h2>Final Design</h2>
             <div class="narrow">
               <p>
-                I designed the user interface and then turned it into a clickable prototype using Axure. Our client wanted a clean website and preferred icons/illustrations over photographs so that the visual content wouldn't be overwhelming.
+                <strong>I designed the user interface and then turned it into a clickable prototype</strong> using Axure. Our client wanted a clean website and preferred icons/illustrations over photographs so that the visual content wouldn't be overwhelming.
               </p>
             </div>
 
@@ -244,12 +244,6 @@
                 </figure>
               </div>
 
-              <!-- <div class="col-3">
-                <figure>
-                  <a href="img/projects/makerlabs/final-order2.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-order2.jpg" alt="Get a quote - choose tool"></a>
-                </figure>
-              </div> -->
-
               <div class="col-2">
                 <figure>
                   <a href="img/projects/makerlabs/final-order2.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-order2.jpg" alt="Get a quote - choose material"></a>
@@ -272,12 +266,6 @@
                   <a href="img/projects/makerlabs/final-classes1.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-classes1.jpg" alt="Classes page"></a>
                 </figure>
               </div>
-
-              <!-- <div class="col-3">
-                <figure>
-                  <a href="img/projects/makerlabs/final-classes2.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-classes2.jpg" alt="Get a quote - choose tool"></a>
-                </figure>
-              </div> -->
 
               <div class="col-2">
                 <figure>
