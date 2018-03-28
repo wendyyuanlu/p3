@@ -36,7 +36,7 @@
 
           <div id="mobile" class="mobile">
             <ul>
-              <li><a href="index.php">Work</a></li>
+              <li><a href="index.php#work">Work</a></li>
               <li><a href="about.php">About</a></li>
             </ul>
           </div>
