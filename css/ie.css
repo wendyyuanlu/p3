@@ -1,0 +1,18 @@
+header .logo img {
+	width: auto; //for IE
+	height: auto; //for IE
+}
+
+.grid img {
+	width: auto; //for IE
+}
+
+.work-item figure {
+	width: auto; //for IE
+	height: auto; //for IE
+}
+
+#project-detail img {
+	width: auto; //for IE
+	height: auto; //for IE
+}
