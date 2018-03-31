@@ -288,14 +288,6 @@
               </div>
             </div>
 
-            <div class="spacer-1"></div>
-
-            <h3><span class="subtext">Reception</span></h3>
-            <div class="narrow">
-              <p>
-                These designs were also positively received by the Development, UX, and Product Management team. They have been documented so that the Development team can continue to implement them after my internship ended.
-              </p>
-            </div> <!--end narrow-->
           </section> <!--end panel-->
 
           <section id="more-project" class="panel">

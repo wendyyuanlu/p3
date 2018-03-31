@@ -264,7 +264,7 @@
               <div class="grid">
                 <div class="col-2">
                   <figure>
-                    <img src="img/thumb/seeingai.jpg" alt="Seeing AI">
+                    <img src="img/thumb/conversations.jpg" alt="Seeing AI">
                     <figcaption>
                       Suspendisse vel nunc bibendum diam rutrum elementum. Vivamus scelerisque tellus ex, sed fringilla nunc sodales eu. Nulla accumsan, erat sed euismod consequat, massa diam aliquet urna, nec molestie cursus sapien vel augue interdum hendrerit.
                     </figcaption>
@@ -273,7 +273,7 @@
 
                 <div class="col-2">
                   <figure>
-                    <img src="img/thumb/travelocity.jpg" alt="Travelocity">
+                    <img src="img/thumb/makerlabs.jpg" alt="Travelocity">
                     <figcaption>
                       Maecenas pellentesque efficitur sem et elementum. Nunc pellentesque malesuada sem in pretium. Maecenas cursus sapien vel augue interdum hendrerit. Donec suscipit, dolor at porttitor cursus, mi augue maximus nulla, nec lacinia lorem risus id lectus.
                     </figcaption>
