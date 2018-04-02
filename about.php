@@ -2,7 +2,7 @@
 
         <section class="panel">
           <h1 class="full">Nice to meet you!</h1>
-          <figure class="about"><img src="img/wendy.jpg" alt="Wendy Lu"><figure>
+          <figure class="about"><img src="img/wendy.jpg" alt="Wendy Lu"></figure>
           <div class="narrow">
             <p>
               I'm Wendy, a UX designer from Vancouver, Canada. I am passionate about creating insight-driven work to help reduce the frictions in people's daily lives. In addition to designing workflows and interfaces, I enjoy prototyping, conducting usability studies, and cross-team collaborations. My previous experiences include working at Microsoft and <a href="conversations.php">SAP</a>, as well as mid-sized startups and non-profit organizations.
