@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:200,300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <!--[if IE]>
+    [if IE]>
       <link rel="stylesheet" href="css/ie.css">
-    <![endif]-->
+    <![endif]>
 
   </head>
 

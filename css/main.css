@@ -67,7 +67,7 @@ h1 {
   font-weight: 400;
   font-size: 1.7em;
   text-align: center;
-  margin: 0 auto 1.5em auto;
+  margin: 0.4em auto 1.5em auto;
 }
 
 h2 {
@@ -256,6 +256,10 @@ h1 .highlight:after {
 
 .center{
   text-align: center;
+}
+
+.about img {
+	max-width: 100%;
 }
 
 /* #styleguide h2, #styleguide h3 {

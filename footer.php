@@ -1,12 +1,5 @@
       </main>
 
-      <!-- SharePoint
-      SAP Conversations
-      MakerLabs
-      Seeing AI
-      Travelocity -->
-
-
       <script src="js/main.js"></script>
       <script src="js/zenscroll-min.js"></script>
 

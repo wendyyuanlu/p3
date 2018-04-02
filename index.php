@@ -5,7 +5,7 @@
           <section id="work" class="work-container grid">
             <div class="work-item col-2">
               <figure>
-                <a href="conversations.php"><img src="img/thumb/conversations.jpg" alt="Conversations"></a>
+                <a href="conversations.php"><img src="img/thumb/conversations.jpg" width="1200" height="773" alt="Conversations"></a>
               </figure>
 
               <a href="conversations.php">
@@ -21,7 +21,7 @@
 
             <div class="work-item col-2">
               <figure>
-                <a href="makerlabs.php"><img src="img/thumb/makerlabs.jpg" alt="MakerLabs"></a>
+                <a href="makerlabs.php"><img src="img/thumb/makerlabs.jpg" width="1200" height="773" alt="MakerLabs"></a>
               </figure>
 
               <a href="makerlabs.php">
