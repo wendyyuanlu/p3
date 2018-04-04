@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+        <div class="nav-cover"></div>
         <section id="project-detail">
 
           <section id="overview" class="panel intro">
@@ -38,7 +39,7 @@
             <div class="grid">
               <div class="col-3">
                 <figure>
-                  <a href="img/projects/conversations//pm-home.jpg" onclick="target='_blank'"><img src="img/projects/conversations/pm-home.jpg" alt="Screenshot of the homepage for private messages"></a>
+                  <a href="img/projects/conversations//pm-home.jpg" onclick="target='_blank'"><span><img src="img/projects/conversations/pm-home.jpg" alt="Screenshot of the homepage for private messages"></span></a>
                   <figcaption>
                     Homepage
                   </figcaption>
@@ -47,7 +48,7 @@
 
               <div class="col-3">
                 <figure>
-                  <a href="img/projects/conversations/pm-thread.jpg" onclick="target='_blank'"><img src="img/projects/conversations/pm-thread.jpg" alt="Screenshot of a conversation thread"></a>
+                  <a href="img/projects/conversations/pm-thread.jpg" onclick="target='_blank'"><span><img src="img/projects/conversations/pm-thread.jpg" alt="Screenshot of a conversation thread"></span></a>
                   <figcaption>
                     A message thread
                   </figcaption>
@@ -56,7 +57,7 @@
 
               <div class="col-3">
                 <figure>
-                  <a href="img/projects/conversations/pm-new.jpg" onclick="target='_blank'"><img src="img/projects/conversations/pm-new.jpg" alt="Screenshot of a conversation thread"></a>
+                  <a href="img/projects/conversations/pm-new.jpg" onclick="target='_blank'"><span><img src="img/projects/conversations/pm-new.jpg" alt="Screenshot of a conversation thread"></span></a>
                   <figcaption>
                     Composing a new message
                   </figcaption>
@@ -92,14 +93,14 @@
             </div> <!--end narrow-->
 
             <figure>
-                <a href="img/projects/conversations/sketch-right.jpg" onclick="target='_blank'"><img src="img/projects/conversations/sketch-right.jpg" alt="Sketches of the conversations area in the UI"></a>
+                <a href="img/projects/conversations/sketch-right.jpg" onclick="target='_blank'"><span><img src="img/projects/conversations/sketch-right.jpg" alt="Sketches of the conversations area in the UI"></span></a>
               <figcaption>
                 Right side of the UI: Conversation area
               </figcaption>
             </figure>
 
             <figure>
-              <a href="img/projects/conversations/sketch-left.jpg" onclick="target='_blank'"><img src="img/projects/conversations/sketch-left.jpg" alt="Sketches of the list of conversations in the UI"></a>
+              <a href="img/projects/conversations/sketch-left.jpg" onclick="target='_blank'"><span><img src="img/projects/conversations/sketch-left.jpg" alt="Sketches of the list of conversations in the UI"></span></a>
               <figcaption>
                 Left side of the UI: List of conversations
               </figcaption>
@@ -117,7 +118,7 @@
             <div class="grid">
               <div class="col-3">
                 <figure>
-                  <a href="img/projects/conversations/mocks-list.png" onclick="target='_blank'"><img src="img/projects/conversations/mocks-list.png" alt="High fidelity mockups of conversations list"></a>
+                  <a href="img/projects/conversations/mocks-list.png" onclick="target='_blank'"><span><img src="img/projects/conversations/mocks-list.png" alt="High fidelity mockups of conversations list"></span></a>
                   <figcaption>
                     Conversation list - profile photos, time stamps, unread messages
                   </figcaption>
@@ -126,7 +127,7 @@
 
               <div class="col-3">
                 <figure>
-                  <a href="img/projects/conversations/mocks-bubbles.png" onclick="target='_blank'"><img src="img/projects/conversations/mocks-bubbles.png" alt="High fidelity mockups of message bubbles"></a>
+                  <a href="img/projects/conversations/mocks-bubbles.png" onclick="target='_blank'"><span><img src="img/projects/conversations/mocks-bubbles.png" alt="High fidelity mockups of message bubbles"></span></a>
                   <figcaption>
                     Message bubbles
                   </figcaption>
@@ -135,7 +136,7 @@
 
               <div class="col-3">
                 <figure>
-                  <a href="img/projects/conversations/mocks-newreply.png" onclick="target='_blank'"><img src="img/projects/conversations/mocks-newreply.png" alt="High fidelity mockups of new messages and reply box"></a>
+                  <a href="img/projects/conversations/mocks-newreply.png" onclick="target='_blank'"><span><img src="img/projects/conversations/mocks-newreply.png" alt="High fidelity mockups of new messages and reply box"></span></a>
                   <figcaption>
                     New message indicator and reply box
                   </figcaption>
@@ -155,7 +156,7 @@
             <div class="grid">
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/conversations/test-a.png" onclick="target='_blank'"><img src="img/projects/conversations/test-a.png" alt="Workflow A"></a>
+                  <a href="img/projects/conversations/test-a.png" onclick="target='_blank'"><span><img src="img/projects/conversations/test-a.png" alt="Workflow A"></span></a>
                   <figcaption>
                     Workflow A: Starts with one point of entry. Users can then choose if they want to create a group conversation.
                   </figcaption>
@@ -164,7 +165,7 @@
 
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/conversations/test-b.png" onclick="target='_blank'"><img src="img/projects/conversations/test-b.png" alt="Workflow B"></a>
+                  <a href="img/projects/conversations/test-b.png" onclick="target='_blank'"><span><img src="img/projects/conversations/test-b.png" alt="Workflow B"></span></a>
                   <figcaption>
                     Workflow B: Creating a group and 1:1 conversation is split into their own separate points of entry. This gives users the option to start a group conversation right away.
                   </figcaption>
@@ -188,7 +189,7 @@
             </div>
 
             <figure>
-              <a href="img/projects/conversations/final-desk.png" onclick="target='_blank'"><img src="img/projects/conversations/final-desk.png" alt="Final design for Conversations"></a>
+              <a href="img/projects/conversations/final-desk.png" onclick="target='_blank'"><span><img src="img/projects/conversations/final-desk.png" alt="Final design for Conversations"></span></a>
               <figcaption>
                 The revamped Conversations page.
               </figcaption>
@@ -197,7 +198,7 @@
             <div class="grid">
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/conversations/final-desk-bot.png" onclick="target='_blank'"><img src="img/projects/conversations/final-desk-bot.png" alt="Sketches for creating new conversations"></a>
+                  <a href="img/projects/conversations/final-desk-bot.png" onclick="target='_blank'"><span><img src="img/projects/conversations/final-desk-bot.png" alt="Sketches for creating new conversations"></span></a>
                   <figcaption>
                     Conversation with a bot
                   </figcaption>
@@ -206,7 +207,7 @@
 
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/conversations/final-desk-group.png" onclick="target='_blank'"><img src="img/projects/conversations/final-desk-group.png" alt="Sketches for chat popovers"></a>
+                  <a href="img/projects/conversations/final-desk-group.png" onclick="target='_blank'"><span><img src="img/projects/conversations/final-desk-group.png" alt="Sketches for chat popovers"></span></a>
                   <figcaption>
                     Creating a group conversation
                   </figcaption>
@@ -219,7 +220,7 @@
             <h3><span class="subtext">Mobile Web</span></h3>
 
             <figure>
-              <a href="img/projects/conversations/final-mobile-all.png" onclick="target='_blank'"><img src="img/projects/conversations/final-mobile-all.png" alt="Final design for Conversations on mobile web"></a>
+              <a href="img/projects/conversations/final-mobile-all.png" onclick="target='_blank'"><span><img src="img/projects/conversations/final-mobile-all.png" alt="Final design for Conversations on mobile web"></span></a>
               <figcaption>
                 From left to right: 1) Conversations homepage. &nbsp; 2) Adding contacts to a conversation. &nbsp; 3) Conversation with new messages. &nbsp; 4) Alerts for wifi disconnection.
               </figcaption>
@@ -249,7 +250,7 @@
             <div class="grid">
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/conversations/sketch-future-new.jpg" onclick="target='_blank'"><img src="img/projects/conversations/sketch-future-new.jpg" alt="Sketches for creating new conversations"></a>
+                  <a href="img/projects/conversations/sketch-future-new.jpg" onclick="target='_blank'"><span><img src="img/projects/conversations/sketch-future-new.jpg" alt="Sketches for creating new conversations"></span></a>
                   <figcaption>
                     Two workflows for starting a new conversation in the Conversations list popover
                   </figcaption>
@@ -258,7 +259,7 @@
 
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/conversations/sketch-future-chat.jpg" onclick="target='_blank'"><img src="img/projects/conversations/sketch-future-chat.jpg" alt="Sketches for chat popovers"></a>
+                  <a href="img/projects/conversations/sketch-future-chat.jpg" onclick="target='_blank'"><span><img src="img/projects/conversations/sketch-future-chat.jpg" alt="Sketches for chat popovers"></span></a>
                   <figcaption>
                     Different chat popover treatments
                   </figcaption>
@@ -271,7 +272,7 @@
             <div class="grid">
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/conversations/future-chat.png" onclick="target='_blank'"><img src="img/projects/conversations/future-chat.png" alt="Mock up for chat popovers"></a>
+                  <a href="img/projects/conversations/future-chat.png" onclick="target='_blank'"><span><img src="img/projects/conversations/future-chat.png" alt="Mock up for chat popovers"></span></a>
                   <figcaption>
                     Chat popovers
                   </figcaption>
@@ -280,7 +281,7 @@
 
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/conversations/future-list.png" onclick="target='_blank'"><img src="img/projects/conversations/future-list.png" alt="Mock up for the conversation list"></a>
+                  <a href="img/projects/conversations/future-list.png" onclick="target='_blank'"><span><img src="img/projects/conversations/future-list.png" alt="Mock up for the conversation list"></span></a>
                   <figcaption>
                     Conversation list popover
                   </figcaption>

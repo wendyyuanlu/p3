@@ -16,3 +16,16 @@ header .logo img {
 	width: auto; //for IE
 	height: auto; //for IE
 }
+
+figure a img {
+    max-width: 100% !important;
+}
+
+figure a {
+    display: inline-block;
+    max-width: 100%;
+}
+
+figure a span {
+    display: block;
+}

@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+        <div class="nav-cover"></div>
         <section id="project-detail">
 
           <section id="overview" class="panel intro">
@@ -141,7 +142,7 @@
             </div>
 
             <figure>
-              <a href="img/projects/makerlabs/culturalprobe.png" onclick="target='_blank'"><img src="img/projects/makerlabs/culturalprobe.png" alt="Cultural probe kit with 4 activities"></a>
+              <a href="img/projects/makerlabs/culturalprobe.png" onclick="target='_blank'"><span><img src="img/projects/makerlabs/culturalprobe.png" alt="Cultural probe kit with 4 activities"></span></a>
             </figure>
 
             <div class="narrow">
@@ -163,7 +164,7 @@
             </div>
 
             <figure>
-              <a href="img/projects/makerlabs/workshop.png" onclick="target='_blank'"><img src="img/projects/makerlabs/workshop.png" alt="Participatory workshop with 3 activities"></a>
+              <a href="img/projects/makerlabs/workshop.png" onclick="target='_blank'"><span><img src="img/projects/makerlabs/workshop.png" alt="Participatory workshop with 3 activities"></span></a>
             </figure>
 
             <div class="narrow">
@@ -193,7 +194,7 @@
             </div>
 
             <figure>
-              <a href="img/projects/makerlabs/wireframes.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/wireframes.jpg" alt="Wireframes"></a>
+              <a href="img/projects/makerlabs/wireframes.jpg" onclick="target='_blank'"><span><img src="img/projects/makerlabs/wireframes.jpg" alt="Wireframes"></span></a>
               <figcaption>
                 Customer workflow for getting a quote
               </figcaption>
@@ -214,7 +215,7 @@
             <div class="grid grid-center">
               <div class="col-2 grid-image">
                 <figure>
-                  <a href="img/projects/makerlabs/final-landing.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-landing.jpg" alt="Landing page"></a>
+                  <a href="img/projects/makerlabs/final-landing.jpg" onclick="target='_blank'"><span><img src="img/projects/makerlabs/final-landing.jpg" alt="Landing page"></span></a>
                 </figure>
               </div>
 
@@ -242,13 +243,13 @@
             <div class="grid">
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/makerlabs/final-order1.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-order1.jpg" alt="Order page"></a>
+                  <a href="img/projects/makerlabs/final-order1.jpg" onclick="target='_blank'"><span><img src="img/projects/makerlabs/final-order1.jpg" alt="Order page"></span></a>
                 </figure>
               </div>
 
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/makerlabs/final-order2.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-order2.jpg" alt="Get a quote - choose material"></a>
+                  <a href="img/projects/makerlabs/final-order2.jpg" onclick="target='_blank'"><span><img src="img/projects/makerlabs/final-order2.jpg" alt="Get a quote - choose material"></span></a>
                 </figure>
               </div>
             </div> <!--end grid-->
@@ -265,13 +266,13 @@
             <div class="grid">
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/makerlabs/final-classes1.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-classes1.jpg" alt="Classes page"></a>
+                  <a href="img/projects/makerlabs/final-classes1.jpg" onclick="target='_blank'"><span><img src="img/projects/makerlabs/final-classes1.jpg" alt="Classes page"></span></a>
                 </figure>
               </div>
 
               <div class="col-2">
                 <figure>
-                  <a href="img/projects/makerlabs/final-classes2.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-classes2.jpg" alt="Get a quote - choose material"></a>
+                  <a href="img/projects/makerlabs/final-classes2.jpg" onclick="target='_blank'"><span><img src="img/projects/makerlabs/final-classes2.jpg" alt="Get a quote - choose material"></span></a>
                 </figure>
               </div>
             </div> <!--end grid-->
@@ -286,7 +287,7 @@
                 </p>
 
                 <figure>
-                  <a href="img/projects/makerlabs/final-membership.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-membership.jpg" alt="Membership page"></a>
+                  <a href="img/projects/makerlabs/final-membership.jpg" onclick="target='_blank'"><span><img src="img/projects/makerlabs/final-membership.jpg" alt="Membership page"></span></a>
                 </figure>
               </div>
 
@@ -298,7 +299,7 @@
                 </p>
 
                 <figure>
-                  <a href="img/projects/makerlabs/final-studio.jpg" onclick="target='_blank'"><img src="img/projects/makerlabs/final-studio.jpg" alt="Studio page"></a>
+                  <a href="img/projects/makerlabs/final-studio.jpg" onclick="target='_blank'"><span><img src="img/projects/makerlabs/final-studio.jpg" alt="Studio page"></span></a>
                 </figure>
               </div>
             </div> <!--end grid-->

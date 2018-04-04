@@ -133,6 +133,10 @@ header .logo {
   margin-bottom: 0.5em;
 }
 
+header .logo figure {
+	margin: 0;
+}
+
 header .logo img {
   max-width: 100%;
   opacity: 1;
@@ -685,8 +689,6 @@ p.social img {
     visibility: hidden;
   }
 
-
-
   .col-2.grid-text {
     order: 1;
   }
@@ -861,11 +863,11 @@ p.social img {
     text-align: center;
     font-size: 0.8em;
     position: fixed;
-    z-index: 1000;
+    z-index: 500;
     top: 0;
     right: 0;
     left: 0;
-    opacity: 0.8;
+    opacity: 0.95;
     transition: 0.4s all;
     border-bottom: 1px solid #e3e3e3;
   }
@@ -886,6 +888,16 @@ p.social img {
   #project-nav:hover {
     opacity: 1;
   }
+
+	.nav-cover {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+		height: 60px;
+		background: #fbfbfb;
+	}
 
 	.slideDown {
 	  animation-name: slideDown;
@@ -1045,4 +1057,24 @@ p.social img {
     padding-left:20%;
     padding-right:20%;
   }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    // IE10+ CSS here
+		figure img {
+	    max-width: 100% !important;
+		}
+
+		figure a {
+		    display: inline-block;
+		    max-width: 100%;
+		}
+
+		figure span {
+		    display: block;
+		}
+
+		body {
+		    background: black;
+		}
 }
