@@ -138,8 +138,9 @@ header .logo figure {
 }
 
 header .logo img {
-  max-width: 100%;
-  opacity: 1;
+  width:130px;
+  height: 75px;
+	max-width: 100%;
 }
 
 header .logo a:after {
@@ -587,6 +588,11 @@ p.social img {
     margin-left: 4.2em;
     margin-bottom: 0.4em;
   }
+
+	header .logo img {
+    width:140px;
+    height: 77.54px;
+	}
 
 
   nav ul li {
@@ -1072,9 +1078,5 @@ p.social img {
 
 		figure span {
 		    display: block;
-		}
-
-		body {
-		    background: black;
 		}
 }

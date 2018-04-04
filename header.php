@@ -28,7 +28,7 @@
           </div>
 
           <div class="logo">
-            <a href="index.php"><figure><span><img src="img/logo.svg"  onerror="this.src='img/logo.png'" alt="Wendy Lu"></span></figure></a>
+            <figure><a href="index.php"><span><img src="img/logo.svg"  onerror="this.src='img/logo.png'" alt="Wendy Lu"></span></a></figure>
           </div>
 
           <div id="desktop2" class="desktop">
